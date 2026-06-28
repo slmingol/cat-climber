@@ -4,3 +4,8 @@ services:
     ports:
       - "3992:80"
     restart: unless-stopped
+    volumes:
+      - puzzle-data:/puzzle-data
+
+volumes:
+  puzzle-data:
