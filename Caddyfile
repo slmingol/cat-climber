@@ -10,14 +10,14 @@
         Referrer-Policy "strict-origin-when-cross-origin"
     }
     
-    # Disable caching for HTML and JS files during development
-    header /index.html Cache-Control "no-cache, no-store, must-revalidate"
-    header /script.js Cache-Control "no-cache, no-store, must-revalidate"
-    header /styles.css Cache-Control "no-cache, no-store, must-revalidate"
-    
-    # Cache images and other static assets
+    # No caching for HTML, JS, CSS, and puzzle data
+    header /*.html Cache-Control "no-cache, no-store, must-revalidate"
+    header /*.js Cache-Control "no-cache, no-store, must-revalidate"
+    header /*.css Cache-Control "no-cache, no-store, must-revalidate"
+    header /*.json Cache-Control "no-cache, no-store, must-revalidate"
+
+    # Cache images
     header /*.png Cache-Control "public, max-age=31536000"
-    header /*.json Cache-Control "public, max-age=3600"
     
     log {
         output stdout
