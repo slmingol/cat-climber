@@ -177,11 +177,14 @@ function applyFilters() {
         });
     }
     
-    // Apply sort order
+    // Apply sort order -- treat missing/invalid dates as oldest so they
+    // don't float to the top due to NaN comparisons in JS sort
     filteredPuzzles.sort((a, b) => {
         const dateA = new Date(a.date);
         const dateB = new Date(b.date);
-        return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
+        const tA = isNaN(dateA) ? 0 : dateA.getTime();
+        const tB = isNaN(dateB) ? 0 : dateB.getTime();
+        return sortOrder === 'newest' ? tB - tA : tA - tB;
     });
     
     renderPuzzles();
