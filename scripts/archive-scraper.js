@@ -84,7 +84,7 @@ async function scrapePuzzle(browser, url) {
             data.end = fromToMatch[2];
             
             // Extract date
-            const dateMatch = fullText.match(/(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[^,]*,\s*\w+\s+\d+,\s*\d{4}/);
+            const dateMatch = fullText.match(/(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d+,\s*\d{4}/);
             if (dateMatch) data.date = dateMatch[0];
             
             // Extract theme
