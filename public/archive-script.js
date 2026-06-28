@@ -281,20 +281,21 @@ function renderPuzzles() {
         'Uncategorized'
     ];
     
-    // Sort themes by predefined order, then alphabetically for any new themes
+    // When sorting by date, order themes by their most recent/earliest puzzle.
+    // Otherwise use the predefined category order.
     const sortedThemes = Object.keys(puzzlesByTheme).sort((a, b) => {
+        if (sortOrder === 'newest' || sortOrder === 'oldest') {
+            const datesA = puzzlesByTheme[a].map(({puzzle}) => { const t = new Date(puzzle.date).getTime(); return isNaN(t) ? 0 : t; });
+            const datesB = puzzlesByTheme[b].map(({puzzle}) => { const t = new Date(puzzle.date).getTime(); return isNaN(t) ? 0 : t; });
+            const repA = sortOrder === 'newest' ? Math.max(...datesA) : Math.min(...datesA.filter(t => t > 0).concat([Infinity]));
+            const repB = sortOrder === 'newest' ? Math.max(...datesB) : Math.min(...datesB.filter(t => t > 0).concat([Infinity]));
+            return sortOrder === 'newest' ? repB - repA : repA - repB;
+        }
         const indexA = categoryOrder.indexOf(a);
         const indexB = categoryOrder.indexOf(b);
-        
-        // If both are in the order list, use that order
-        if (indexA !== -1 && indexB !== -1) {
-            return indexA - indexB;
-        }
-        // If only A is in the list, it comes first
+        if (indexA !== -1 && indexB !== -1) return indexA - indexB;
         if (indexA !== -1) return -1;
-        // If only B is in the list, it comes first
         if (indexB !== -1) return 1;
-        // Neither in list, sort alphabetically
         return a.localeCompare(b);
     });
     
