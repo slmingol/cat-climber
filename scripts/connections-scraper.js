@@ -38,11 +38,12 @@ async function scrapePuzzle(browser, puzzleNum) {
             const dateMatch = fullText.match(/(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d+,\s+\d{4}/);
             if (dateMatch) data.date = dateMatch[0];
             
-            // Extract all word buttons/tiles
-            const wordElements = document.querySelectorAll('button[class*="word"], div[class*="tile"], button[class*="tile"]');
+            // Extract word buttons -- Chakra UI buttons, exclude utility controls
+            const EXCLUDE = new Set(['Share', 'Deselect All', 'Shuffle', 'Submit']);
+            const wordElements = document.querySelectorAll('button.chakra-button');
             wordElements.forEach(el => {
                 const word = el.textContent.trim();
-                if (word && word.length > 0 && !word.match(/Submit|Shuffle|Deselect|Share/i)) {
+                if (word && !EXCLUDE.has(word)) {
                     data.words.push(word);
                 }
             });
