@@ -1,6 +1,6 @@
 {
-  "count": 854,
-  "collected": "2026-06-28T05:36:27.051Z",
+  "count": 964,
+  "collected": "2026-06-28T13:00:54.804Z",
   "puzzles": [
     {
       "start": "CATERPILLAR",
@@ -9044,6 +9044,169 @@
       "source": "custom"
     },
     {
+      "start": "SAVE",
+      "end": "PLAN",
+      "solution": [
+        "SAVE",
+        "SAGE",
+        "PAGE",
+        "PALE",
+        "PALS",
+        "PLAN"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a wise person",
+        "Change one letter in ^ to get a sheet of paper",
+        "Change one letter in ^ to get not dark or colorful",
+        "Change one letter in ^ to get plural friends",
+        "Change one letter in ^ to get a scheme or strategy"
+      ],
+      "theme": "Word Transformations",
+      "description": "The best things we SAVE aren't always tangible. Sometimes we need a careful PLAN to protect what truly matters, transforming simple intentions into meaningful actions through small, deliberate changes.",
+      "date": "March 7, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "COLD",
+      "end": "WARM",
+      "solution": [
+        "COLD",
+        "CORD",
+        "WORD",
+        "WORM",
+        "WARM"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a rope or cable",
+        "Change one letter in ^ to get what you're reading now",
+        "Change one letter in ^ to get a wiggly invertebrate",
+        "Change one letter in ^ to get a cozy temperature"
+      ],
+      "theme": "Temperature",
+      "description": "A COLD morning transforms gradually as the sun rises, each degree bringing subtle shifts in how we feel. By afternoon, the same air that made us shiver now feels WARM and welcoming, proving that comfort is just COLD given time and patience.",
+      "date": "March 7, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "HEAD",
+      "end": "TAIL",
+      "solution": [
+        "HEAD",
+        "HEAL",
+        "TEAL",
+        "TELL",
+        "TALL",
+        "TAIL"
+      ],
+      "clues": [
+        "Change one letter in ^ to cure or repair",
+        "Change one letter in ^ to get a blue-green color",
+        "Change one letter in ^ to speak or narrate",
+        "Change one letter in ^ to get having great height",
+        "Change one letter in ^ to get the opposite end from HEAD"
+      ],
+      "theme": "Opposites",
+      "description": "Every journey needs two markers: the starting HEAD and the finishing TAIL. Like a coin spinning through air, we flip between these opposites, never quite one or the other until we finally land and see which side faces up.",
+      "date": "March 7, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "WORK",
+      "end": "PLAY",
+      "solution": [
+        "WORK",
+        "PORK",
+        "PORT",
+        "POST",
+        "PAST",
+        "PLAT",
+        "PLAY"
+      ],
+      "clues": [
+        "Change one letter in ^ to get meat from a pig",
+        "Change one letter in ^ to get a harbor for ships",
+        "Change one letter in ^ to get where you mail letters",
+        "Change one letter in ^ to get the opposite of future",
+        "Change one letter in ^ to get a measured piece of land",
+        "Change one letter in ^ to have fun"
+      ],
+      "theme": "Life Balance",
+      "description": "Finding the balance between WORK and PLAY defines a life well-lived. Too much responsibility crushes the spirit, while too much leisure leaves us unfulfilled—the sweet spot lies somewhere between these extremes, where obligation meets joy.",
+      "date": "March 7, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "LOVE",
+      "end": "HATE",
+      "solution": [
+        "LOVE",
+        "HOVE",
+        "HAVE",
+        "HATE"
+      ],
+      "clues": [
+        "Change one letter in ^ to get past tense of heave (nautical)",
+        "Change one letter in ^ to possess something",
+        "Change one letter in ^ to get strong dislike"
+      ],
+      "theme": "Emotions",
+      "description": "LOVE and HATE sit closer together than we'd like to admit. These twin emotions, seemingly opposite, share the same intensity and passion—only their direction differs, making the journey between them surprisingly short yet infinitely complex.",
+      "date": "March 7, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "FAST",
+      "end": "SLOW",
+      "solution": [
+        "FAST",
+        "LAST",
+        "LASH",
+        "LATH",
+        "LOATH",
+        "SLOTH",
+        "SLOE",
+        "SLOW"
+      ],
+      "clues": [
+        "Change one letter in ^ to get coming after all others",
+        "Change one letter in ^ to whip or strike",
+        "Change one letter in ^ to get a thin strip of wood",
+        "Change one letter in ^ to get reluctant or unwilling",
+        "Change one letter in ^ to get a very slow-moving animal",
+        "Change one letter in ^ to get a type of berry",
+        "Change one letter in ^ to get not fast"
+      ],
+      "theme": "Speed",
+      "description": "Racing through life FAST, we often miss what matters most. Only when we finally embrace going SLOW do we discover that velocity isn't everything—sometimes the longest path teaches us more than the quickest route ever could.",
+      "date": "March 7, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "RAIN",
+      "end": "SNOW",
+      "solution": [
+        "RAIN",
+        "PAIN",
+        "PAWN",
+        "SAWN",
+        "SEWN",
+        "SHOW",
+        "SNOW"
+      ],
+      "clues": [
+        "Change one letter in ^ to get physical or emotional hurt",
+        "Change one letter in ^ to get a chess piece",
+        "Change one letter in ^ to get cut with a saw (past tense)",
+        "Change one letter in ^ to get stitched together",
+        "Change one letter in ^ to get a performance or display",
+        "Change one letter in ^ to get frozen precipitation"
+      ],
+      "theme": "Weather",
+      "description": "Spring RAIN and winter SNOW are siblings separated by temperature. Both fall from clouds, both nourish the earth, yet one flows while the other drifts—proving that nature's transformations often require just the smallest shift in conditions.",
+      "date": "March 8, 2026",
+      "source": "custom"
+    },
+    {
       "start": "RAIN",
       "end": "SNOW",
       "solution": [
@@ -9394,6 +9557,52 @@
       "source": "custom"
     },
     {
+      "start": "IRON",
+      "end": "GOLD",
+      "solution": [
+        "IRON",
+        "ICON",
+        "COIN",
+        "CORN",
+        "CORD",
+        "COLD",
+        "GOLD"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a symbol or religious image",
+        "Change one letter in ^ to get metal currency",
+        "Change one letter in ^ to get yellow grain on the cob",
+        "Change one letter in ^ to get rope or cable",
+        "Change one letter in ^ to get low temperature",
+        "Change one letter in ^ to get precious yellow metal"
+      ],
+      "theme": "Metals",
+      "description": "Medieval alchemists spent lifetimes trying to transmute common IRON into precious GOLD. While they never achieved their literal goal, they discovered something more valuable: true transformation comes through patience, wisdom, and carefully measured steps forward.",
+      "date": "March 9, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "DARK",
+      "end": "LITE",
+      "solution": [
+        "DARK",
+        "DART",
+        "TART",
+        "TART",
+        "LART",
+        "LITE"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a throwing projectile",
+        "Change one letter in ^ to get a sweet pastry or sharp taste",
+        "Anagram ^ to get colloquial spelling of light"
+      ],
+      "theme": "Light vs Dark",
+      "description": "Moving from DARK to LITE isn't about banishing shadows entirely—it's about finding the first spark that breaks the blackness. Even the smallest illumination can guide us forward, proving that enlightenment begins with a single, simple change.",
+      "date": "March 10, 2026",
+      "source": "custom"
+    },
+    {
       "start": "DARK",
       "end": "LITE",
       "solution": [
@@ -9702,24 +9911,26 @@
       "source": "custom"
     },
     {
-      "start": "BOOK",
-      "end": "READ",
+      "start": "MEAT",
+      "end": "TACO",
       "solution": [
-        "BOOK",
-        "TOOK",
-        "TOAD",
-        "ROAD",
-        "READ"
+        "MEAT",
+        "MELT",
+        "MOLT",
+        "MOOT",
+        "TOOT",
+        "TACO"
       ],
       "clues": [
-        "Change one letter in ^ to get past tense of take",
-        "Change one letter in ^ to get a warty amphibian",
-        "Change one letter in ^ to get a path for vehicles",
-        "Change one letter in ^ to look at and comprehend text"
+        "Change one letter in ^ to liquify from heat",
+        "Change one letter in ^ to shed feathers or skin",
+        "Change one letter in ^ to get a debatable point",
+        "Change one letter in ^ to sound a horn",
+        "Anagram ^ to get Mexican food in a shell"
       ],
-      "theme": "Literature",
-      "description": "A BOOK remains just bound paper until someone opens it to READ. That act of reading transforms static text into living stories, transporting us from our comfortable chairs into adventures we never imagined, all through the magic of words.",
-      "date": "March 12, 2026",
+      "theme": "Food",
+      "description": "The journey from raw MEAT to a perfect TACO illustrates culinary alchemy at its finest. Through heat, spices, and technique, simple ingredients transform into complex flavors—each step of preparation adding depth until something entirely new emerges.",
+      "date": "March 11, 2026",
       "source": "custom"
     },
     {
@@ -9846,6 +10057,73 @@
       "theme": "Literature",
       "description": "A BOOK remains just bound paper until someone opens it to READ. That act of reading transforms static text into living stories, transporting us from our comfortable chairs into adventures we never imagined, all through the magic of words.",
       "date": "March 12, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "BOOK",
+      "end": "READ",
+      "solution": [
+        "BOOK",
+        "TOOK",
+        "TOAD",
+        "ROAD",
+        "READ"
+      ],
+      "clues": [
+        "Change one letter in ^ to get past tense of take",
+        "Change one letter in ^ to get a warty amphibian",
+        "Change one letter in ^ to get a path for vehicles",
+        "Change one letter in ^ to look at and comprehend text"
+      ],
+      "theme": "Literature",
+      "description": "A BOOK remains just bound paper until someone opens it to READ. That act of reading transforms static text into living stories, transporting us from our comfortable chairs into adventures we never imagined, all through the magic of words.",
+      "date": "March 12, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "BOOK",
+      "end": "READ",
+      "solution": [
+        "BOOK",
+        "TOOK",
+        "TOAD",
+        "ROAD",
+        "READ"
+      ],
+      "clues": [
+        "Change one letter in ^ to get past tense of take",
+        "Change one letter in ^ to get a warty amphibian",
+        "Change one letter in ^ to get a path for vehicles",
+        "Change one letter in ^ to look at and comprehend text"
+      ],
+      "theme": "Literature",
+      "description": "A BOOK remains just bound paper until someone opens it to READ. That act of reading transforms static text into living stories, transporting us from our comfortable chairs into adventures we never imagined, all through the magic of words.",
+      "date": "March 12, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "RICH",
+      "end": "POOR",
+      "solution": [
+        "RICH",
+        "RICK",
+        "ROCK",
+        "ROOK",
+        "ROOF",
+        "POOF",
+        "POOR"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a stack of hay",
+        "Change one letter in ^ to get a stone",
+        "Change one letter in ^ to get a castle piece in chess",
+        "Change one letter in ^ to get top covering of a house",
+        "Change one letter in ^ to get exclamation when something disappears",
+        "Change one letter in ^ to get having little money"
+      ],
+      "theme": "Economics",
+      "description": "The distance between RICH and POOR is shorter than it appears. Fortunes rise and fall, circumstances shift unexpectedly, and what seems permanent today may vanish tomorrow—teaching us that true wealth lies in resilience, not in what we temporarily hold.",
+      "date": "March 13, 2026",
       "source": "custom"
     },
     {
@@ -10199,28 +10477,28 @@
       "source": "custom"
     },
     {
-      "start": "MOON",
-      "end": "STAR",
+      "start": "BLUE",
+      "end": "PINK",
       "solution": [
-        "MOON",
-        "MOAN",
-        "LOAN",
-        "LEAN",
-        "LEAR",
-        "SEAR",
-        "STAR"
+        "BLUE",
+        "GLUE",
+        "GLUT",
+        "GOUT",
+        "POUT",
+        "PUNT",
+        "PINK"
       ],
       "clues": [
-        "Change one letter in ^ to get a groan or complaint",
-        "Change one letter in ^ to get borrowed money",
-        "Change one letter in ^ to tilt or be thin",
-        "Change one letter in ^ to get King in Shakespeare play",
-        "Change one letter in ^ to burn the surface",
-        "Change one letter in ^ to get celestial body that twinkles"
+        "Change one letter in ^ to get sticky adhesive",
+        "Change one letter in ^ to get an oversupply",
+        "Change one letter in ^ to get painful joint condition",
+        "Change one letter in ^ to push out your lips in displeasure",
+        "Change one letter in ^ to kick a football",
+        "Change one letter in ^ to get light red color"
       ],
-      "theme": "Astronomy",
-      "description": "Ancient sailors navigated by both MOON and STAR, each celestial body offering its own guidance. While one waxes and wanes, the others remain constant—together they map the heavens, showing us that even the night sky tells stories of transformation and permanence.",
-      "date": "March 15, 2026",
+      "theme": "Colors",
+      "description": "Watch the sky transform from deep BLUE to soft PINK during sunset. This daily metamorphosis reminds us that colors exist on a spectrum, and the journey from one hue to another passes through shades we rarely pause to appreciate.",
+      "date": "March 14, 2026",
       "source": "custom"
     },
     {
@@ -10371,6 +10649,75 @@
       "theme": "Astronomy",
       "description": "Ancient sailors navigated by both MOON and STAR, each celestial body offering its own guidance. While one waxes and wanes, the others remain constant—together they map the heavens, showing us that even the night sky tells stories of transformation and permanence.",
       "date": "March 15, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "MOON",
+      "end": "STAR",
+      "solution": [
+        "MOON",
+        "MOAN",
+        "LOAN",
+        "LEAN",
+        "LEAR",
+        "SEAR",
+        "STAR"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a groan or complaint",
+        "Change one letter in ^ to get borrowed money",
+        "Change one letter in ^ to tilt or be thin",
+        "Change one letter in ^ to get King in Shakespeare play",
+        "Change one letter in ^ to burn the surface",
+        "Change one letter in ^ to get celestial body that twinkles"
+      ],
+      "theme": "Astronomy",
+      "description": "Ancient sailors navigated by both MOON and STAR, each celestial body offering its own guidance. While one waxes and wanes, the others remain constant—together they map the heavens, showing us that even the night sky tells stories of transformation and permanence.",
+      "date": "March 15, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "MOON",
+      "end": "STAR",
+      "solution": [
+        "MOON",
+        "MOAN",
+        "LOAN",
+        "LEAN",
+        "LEAR",
+        "SEAR",
+        "STAR"
+      ],
+      "clues": [
+        "Change one letter in ^ to get a groan or complaint",
+        "Change one letter in ^ to get borrowed money",
+        "Change one letter in ^ to tilt or be thin",
+        "Change one letter in ^ to get King in Shakespeare play",
+        "Change one letter in ^ to burn the surface",
+        "Change one letter in ^ to get celestial body that twinkles"
+      ],
+      "theme": "Astronomy",
+      "description": "Ancient sailors navigated by both MOON and STAR, each celestial body offering its own guidance. While one waxes and wanes, the others remain constant—together they map the heavens, showing us that even the night sky tells stories of transformation and permanence.",
+      "date": "March 15, 2026",
+      "source": "custom"
+    },
+    {
+      "start": "FIRE",
+      "end": "SAFE",
+      "solution": [
+        "FIRE",
+        "FARE",
+        "CAFE",
+        "SAFE"
+      ],
+      "clues": [
+        "Change one letter in ^ to get transportation cost",
+        "Change one letter in ^ to get a coffee shop",
+        "Change one letter in ^ to get secure and protected"
+      ],
+      "theme": "Safety",
+      "description": "Running from FIRE toward somewhere SAFE is instinct, but the transformation between danger and security happens through deliberate choices. What once threatened to consume us can become controlled, useful, even comforting when we learn to contain and direct it properly.",
+      "date": "March 16, 2026",
       "source": "custom"
     },
     {
@@ -10660,6 +11007,2073 @@
       "date": "March 24, 2026",
       "url": "https://raddle.quest/2026/03/24",
       "note": "On March 24, 2002, Halle Berry became the first African American woman to win the Academy Award for Best Actress, for her role in “Monster's Ball”. Before Berry, the only African American actress to win any acting Oscar was Hattie McDaniel, for her supporting role in “Gone With the Wind” in 1939, at a ceremony where McDaniel and her guest were seated at a segregated table. More than two decades later, Berry remains the only Black woman ever to win in that category. Theme: Women's History Month In honor of Women's History Month, we're spending a week highlighting women who made their mark on history. Each day, we're celebrating someone who was connected to an event on that date.",
+      "source": "scraped"
+    },
+    {
+      "start": "ROSA",
+      "end": "PARKS",
+      "clues": [
+        "____________, a heavy thing with a handle",
+        "A ____________ might be warmed up for ________ time",
+        "Add a U to ____ and anagram to get a museum",
+        "Change one letter in ____ to get a flower",
+        "Change one letter in ____ to get some green places",
+        "Change one letter in ____ to get something you might find on a cow",
+        "Drop the first letter from ____ to get a Taylor Swift album",
+        "It's rare to find a ________ with four ____",
+        "The ____ is in ________",
+        "You might read ____ ________ to learn about your future"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 25, 2026",
+      "url": "https://raddle.quest/2026/03/25/",
+      "note": "The Selma to Montgomery March, which arrived in Montgomery on March 25, 1965, was a landmark civil rights milestone, shaped in large part by women activists whose contributions are often underrecognized. Diane Nash, Amelia Boynton Robinson, and Rosa Parks were among those instrumental to the strategy and success of the broader voting rights movement. Theme: Women's History Month In honor of Women's History Month, we're spending a week highlighting women who made their mark on history. Each day, we're celebrating someone who was connected to an event on that date.",
+      "source": "scraped"
+    },
+    {
+      "start": "JULIETTE",
+      "end": "LOW",
+      "clues": [
+        "Add an A to ____ and anagram to get a reference book",
+        "An ____ is full of ________",
+        "Change one letter in ____ to get a kind of competition",
+        "\"Don't ________ the ____!\"",
+        "Drop the outside letters from ____ to get a casual get-together",
+        "Kind of line at the top of an ____",
+        "Partner to ____, phonetically",
+        "Reverse ____ to get a canned food",
+        "Snow-covered branches often ____ ________",
+        "\"Sorry, that ________ went to ____.\"",
+        "\"This ain't my ________ ____!\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 26, 2026",
+      "url": "https://raddle.quest/2026/03/26/",
+      "note": "On March 26, 2025, the Girl Scouts of the USA celebrated the launch of a commemorative quarter featuring their founder, Juliette Gordon Low. Low was the founder of the Girl Scouts of the USA, whose mission is to 'build girls of courage, confidence, and character, who make the world a better place.' Theme: Women's History Month In honor of Women's History Month, we're spending a week highlighting women who made their mark on history. Each day, we're celebrating someone who was connected to an event on that date.",
+      "source": "scraped"
+    },
+    {
+      "start": "BILLIE",
+      "end": "HOLIDAY",
+      "clues": [
+        "________ ____, a popular chain with over 1,000 locations",
+        "____ ________, one who behaves like a goofy bird?",
+        "____________, part of your foot",
+        "Actor ________ ____",
+        "A ____ is a long ________",
+        "Anagram ____ to get some thread",
+        "Change the first letter of ____ to an S and it sounds ridiculous",
+        "Double a letter ____ ____ to get a place to stay",
+        "Individual part of some ____",
+        "What you might take while going from one ____ to the next"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 27, 2026",
+      "url": "https://raddle.quest/2026/03/27/",
+      "note": "On March 27, 1948, Billie Holiday took the stage at Carnegie Hall for a legendary sold-out concert — just days after being released from prison. She performed 32 songs that night, including 'Strange Fruit,' to an audience of over 2,700. Throughout her career, Holiday left a lasting mark on jazz and swing music through her one-of-a-kind vocal stylings. Theme: Women's History Month In honor of Women's History Month, we're spending a week highlighting women who made their mark on history. Each day, we're celebrating someone who was connected to an event on that date.",
+      "source": "scraped"
+    },
+    {
+      "start": "BARBARA",
+      "end": "JORDAN",
+      "clues": [
+        "____ ________ is an exercise where you ________ on all fours",
+        "________ the ____, star of TV and film",
+        "A ____ ________ is adept at finding new homes",
+        "A ________ says \"____\"",
+        "Append a letter to ____ to get a mammal",
+        "Change one letter in ____ to get an animal sound",
+        "Change one letter in ____ to get someone you don't see very often",
+        "Doll whose full first name is ____",
+        "Drop the E from ____ and anagram to get a religious figure",
+        "River that flows into the ____ Sea",
+        "\"The ____ing ________\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 28, 2026",
+      "url": "https://raddle.quest/2026/03/28/",
+      "note": "Barbara Jordan was elected to the Texas Senate in 1966, becoming one of the first Black people to serve there since Reconstruction. On March 28, 1972, she was elected president pro tempore of the Texas Senate, making her the first Black woman in America to preside over a legislative body. She went on to serve in the US House of Representatives, where she worked to expand the reach of the Voting Rights Act of 1965. In 1994, she received the Presidential Medal of Freedom. Theme: Women's History Month In honor of Women's History Month, we're spending a week highlighting women who made their mark on history. Each day, we're celebrating someone who was connected to an event on that date.",
+      "source": "scraped"
+    },
+    {
+      "start": "MEDICATE",
+      "end": "DICE",
+      "clues": [
+        "Actor whose name evokes ____",
+        "Add a W to ____ and anagram to get a certain number of times",
+        "____ are one section of an ________",
+        "____ contains this body part",
+        "Drop a sequence of letters from the middle of ____ to get parts of some instruments",
+        "Drop the first letter from ____ and anagram to get a summertime drink",
+        "\"Going ________, going ____…\"",
+        "____ is Spanish for this number",
+        "____ is the main character on \"________\"",
+        "Objects that are nicknamed \"____\" by some gamblers",
+        "Protective structure in one's ____",
+        "Your ____ has 37 ________, all told"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 29, 2026",
+      "url": "https://raddle.quest/2026/03/29/",
+      "note": "By giving up MEAT, you can turn MEDICATE into some DICE. Theme: Lent To celebrate Easter on Sunday, here are several Raddles featuring things one might abstain from during Lent. By removing the letters of the abstention from the starting word, you can spell the ending word.",
+      "source": "scraped"
+    },
+    {
+      "start": "BELIEVER",
+      "end": "LIVE",
+      "clues": [
+        "________ ____, a handheld souvenir",
+        "________ in a ____, something taken too far",
+        "\"________ ____\", song by The Monkees",
+        "Author of \"The ____\"",
+        "Drop a letter from ____ and anagram to get a way that ____ performed",
+        "He was known as \"The ____\"",
+        "\"____ Little ________\", children's song",
+        "Partner to a ____",
+        "Site of many a ____ premiere",
+        "\"The ____ ________\", story that inspired a 2013 movie about a ____-loving ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 30, 2026",
+      "url": "https://raddle.quest/2026/03/30/",
+      "note": "By giving up BEER, you can make a BELIEVER LIVE. Theme: Lent To celebrate Easter on Sunday, here are several Raddles featuring things one might abstain from during Lent. By removing the letters of the abstention from the starting word, you can spell the ending word.",
+      "source": "scraped"
+    },
+    {
+      "start": "NEWS ALERT",
+      "end": "NEWER",
+      "clues": [
+        "____ ________, a fast break",
+        "________ the ____, underground warning",
+        "\"____________!\", you might say in frustration, or relief",
+        "A ____________ will fix it for now",
+        "Append a letter to ____ to get a counterpart to some ____",
+        "At a ____, you'll often find low ________",
+        "Change one letter in ____ to become more novel",
+        "Good deal found inside ____",
+        "Inedible thing found in a ____",
+        "Insert a letter into ____ to get some royalty",
+        "Nintendo character ____ ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "March 31, 2026",
+      "url": "https://raddle.quest/2026/03/31/",
+      "note": "By giving up SALT, a NEWS ALERT becomes NEWER. Theme: Lent To celebrate Easter on Sunday, here are several Raddles featuring things one might abstain from during Lent. By removing the letters of the abstention from the starting word, you can spell the ending word.",
+      "source": "scraped"
+    },
+    {
+      "start": "SKRILLEX",
+      "end": "KRILL",
+      "clues": [
+        "________ ____, examine something in depth",
+        "____________ might be in pill form",
+        "Add a G to ____ and anagram to get some makeup",
+        "Add a letter to the front of ____ to get a country",
+        "Artist who sang \"____\"",
+        "Change one letter in ____ to get a crustacean",
+        "Change one letter in ____ to get a magazine",
+        "Drop the first two and last two letters of ____ to get a first name",
+        "Drop the last letter from ____ and anagram to get some assassins",
+        "Insert a letter into ____ to get some feathers",
+        "Reverse a bigram (two letters) in ____ to get a scamp"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 2, 2026",
+      "url": "https://raddle.quest/2026/04/02/",
+      "note": "By giving up SEX, SKRILLEX turns into KRILL. Theme: Lent To celebrate Easter on Sunday, here are several Raddles featuring things one might abstain from during Lent. By removing the letters of the abstention from the starting word, you can spell the ending word.",
+      "source": "scraped"
+    },
+    {
+      "start": "ACTION STAR",
+      "end": "ACTOR",
+      "clues": [
+        "________ ____, a desperate attempt",
+        "\"________ ____\", famous last words?",
+        "Add a letter to the front of ____ to get some animals",
+        "Add a T to ____ and anagram to get a kind of performer",
+        "Anagram ____ to get a conclusion",
+        "Charged things found inside ____",
+        "\"In the ____ ________,\" metaphor taken from the bible",
+        "Large mammal that rhymes with ____",
+        "\"____ more ____ ________!\"",
+        "Name heard at the start of \"____\" (for Americans)"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 3, 2026",
+      "url": "https://raddle.quest/2026/04/03/",
+      "note": "By giving up INSTA(gram), you can turn an ACTION STAR into just an ACTOR. Theme: Lent To celebrate Easter on Sunday, here are several Raddles featuring things one might abstain from during Lent. By removing the letters of the abstention from the starting word, you can spell the ending word.",
+      "source": "scraped"
+    },
+    {
+      "start": "STEVEN",
+      "end": "SEEN",
+      "clues": [
+        "A ____ ________ is lazy",
+        "Change one letter in ____ to get a piece of furniture",
+        "Counterpart to ____",
+        "Homophone of \"____\" that is a modern way to feel",
+        "\"OK boomer, you’re ____ of ________\"",
+        "____ one ________, something different",
+        "One might yell \"____!\" at the end of a ________",
+        "Popular condiment for ____",
+        "To ________ the ____ is to be good enough",
+        "What you could describe as ____ sticks",
+        "When we're ________-____, we're all tied up"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 4, 2026",
+      "url": "https://raddle.quest/2026/04/04/",
+      "note": "By giving up TV, STEVEN becomes SEEN. Theme: Lent To celebrate Easter on Sunday, here are several Raddles featuring things one might abstain from during Lent. By removing the letters of the abstention from the starting word, you can spell the ending word.",
+      "source": "scraped"
+    },
+    {
+      "start": "BALLOT",
+      "end": "BOX",
+      "clues": [
+        "Activity you might do in a ____, or what a ____ often comes in",
+        "Change one letter in ____ to get a dance",
+        "Change one letter in ____ to get a hammer",
+        "Change one letter in ____ to get an A-list movie star",
+        "Change one letter in ____ to get an article of clothing",
+        "____ comes from a ________",
+        "Drop the first letter from ____ and anagram to get a kind of force",
+        "Lawn game played with a ____",
+        "Meat that rhymes with ____",
+        "Titular ____ in an Oscar-winning film",
+        "What a ____ may be full of, on a farm",
+        "Where you might throw your ____ into, figuratively"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 5, 2026",
+      "url": "https://raddle.quest/2026/04/05/",
+      "source": "scraped"
+    },
+    {
+      "start": "KICK",
+      "end": "OUT",
+      "clues": [
+        "____ ________, an Olympic sport",
+        "____ ________, early movie star",
+        "____ = dirt + ________",
+        "\"Don't be a ____ in the ________!\"",
+        "Don't ____ the ________ before finishing your ________ list",
+        "Fella found at the start of ____",
+        "In modern terms, wild behavior can be ________ of ____",
+        "Swap two letters in ____ to get a location for some ____",
+        "Young chocolate lover of book and film ________ ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 6, 2026",
+      "url": "https://raddle.quest/2026/04/06/",
+      "source": "scraped"
+    },
+    {
+      "start": "ROD",
+      "end": "REEL",
+      "clues": [
+        "________en____, a yellowish plant",
+        "Add a letter to the front of ____ to get a representative",
+        "American rocker ____ ________",
+        "Change one letter in ____ to get a part of a movie",
+        "Fella found inside ____",
+        "First name that sounds like \"____\"",
+        "First: ____ :: Second :: ________",
+        "Number associated with a very popular ____",
+        "Rotate ____ 180° and it looks like a good place to go?",
+        "South American country whose name means \"____y\", as its first and third letters represent ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 7, 2026",
+      "url": "https://raddle.quest/2026/04/07/",
+      "source": "scraped"
+    },
+    {
+      "start": "MOVIE",
+      "end": "PART",
+      "clues": [
+        "____ ________, animal found on many a farm",
+        "Append a letter to ____ to get an kind of listing",
+        "Change one letter in ____ to get a kind of greeting",
+        "Change one letter in ____ to get a section",
+        "\"Don't ________ a ____!\"",
+        "Person in charge of a ____",
+        "Replace a string of letters in the middle of ____ with an A to get a journal",
+        "Reverse a bigram (two letters) in ____ to get a section of the grocery",
+        "Vessel that might get rocked by a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 8, 2026",
+      "url": "https://raddle.quest/2026/04/08/",
+      "source": "scraped"
+    },
+    {
+      "start": "MAGIC",
+      "end": "SPELL",
+      "clues": [
+        "________ ____, a toy",
+        "____-________, move in basketball",
+        "____ ________, stick used in a ____ show",
+        "________ ____, term for a stray ____",
+        "Add a letter to the front of ____ to get a style of jewelry",
+        "A ____ is a big ________",
+        "Append a letter to ____ to get a first name",
+        "Insect known for communicating via ____",
+        "Insert a bigram into ____ to get a fictional land",
+        "____ is a style of ________",
+        "What you might do in a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 9, 2026",
+      "url": "https://raddle.quest/2026/04/09/",
+      "source": "scraped"
+    },
+    {
+      "start": "SHADOW",
+      "end": "PUPPET",
+      "clues": [
+        "____________, a helper on a ____",
+        "A ________ comes to life when worn on one's ____",
+        "Actor ____ ________ Jones",
+        "Add a letter to the front of ____ to get a body part",
+        "An ____ ________ is necessary to keep ____s as pets",
+        "An ____________ protects ________-made tunnels",
+        "Beyond a ____ of a ________",
+        "Hero with a famously weak ____",
+        "____ING ________, a skeptic",
+        "Land formation found inside ____",
+        "Nickname for a kid named ____",
+        "Reverse ____ to get a fish"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 10, 2026",
+      "url": "https://raddle.quest/2026/04/10/",
+      "source": "scraped"
+    },
+    {
+      "start": "BROKEN",
+      "end": "ARM",
+      "clues": [
+        "Anagram ____ to get a desktop appliance",
+        "A ____ provides ________",
+        "Change one letter in ____ to get a number",
+        "Consumer brand ________ & ____",
+        "God who is in The ____",
+        "Group who fought the ____ War",
+        "____ of ________, vegetable harvested from within a ________ tree",
+        "Tool famously held by ____",
+        "Unrequited love might lead to a ____ ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 11, 2026",
+      "url": "https://raddle.quest/2026/04/11/",
+      "source": "scraped"
+    },
+    {
+      "start": "GHOST",
+      "end": "TRAIN",
+      "clues": [
+        "____________, a measurement in computing",
+        "________ ____, how you first communicate",
+        "________ ____, one of a triad",
+        "____________, your ____'s ____",
+        "A ____ is a ________ dollars",
+        "A ____ is eight digits in ________",
+        "Change one letter in ____ to embrace",
+        "Change one letter in ____ to get a method of transport",
+        "Drop the last letter from ____ and anagram to get an organ",
+        "____ one's ________, stay silent",
+        "Prefix meaning \"____\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 12, 2026",
+      "url": "https://raddle.quest/2026/04/12/",
+      "note": "Ghost Train Orchestra played two captivating sets of Moondog compositions, with a rotating cast of guests including David Byrne and Joan As Police Woman. Moondog was a blind composer who was a staple on the streets of Manhattan in the mid-century, often found dressed in a cloak and a horned helmet. He invented his own instruments, and became a formative influence on everyone from Charlie Parker to Philip Glass. Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "SO",
+      "end": "PERCUSSION",
+      "clues": [
+        "____ ________, descriptor found on the menu of a BBQ joint",
+        "____________, to retrace one's steps",
+        "\"____ ________?!\", you say, defensively",
+        "2024 banger \"____, ________!\"",
+        "A film's ____________ is often released separately",
+        "A ____ might be rubbed for ________",
+        "Anagram ____ to get a kind of instrument",
+        "Anagram ____ to get a pleasing quality",
+        "Change the last letter of ____ to get a small one"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 13, 2026",
+      "url": "https://raddle.quest/2026/04/13/",
+      "note": "Sō Percussion is a four-piece New York-based percussion quartet who have been collaborating with Pulitzer and Grammy-winning composer and vocalist Caroline Shaw for over a decade. At Big Ears they performed their theatrical evening-length show built around the album \"Rectangles and Circumstance\", opening with Shaw alone under a spotlight and gradually adding marimba, vibraphone, steel drums, flowerpots, drums, and found percussion. I saw them perform three times over the weekend, including an hour-long trance-like performance of Steve Reich's \"Drumming\". Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "PATRICK",
+      "end": "WATSON",
+      "clues": [
+        "____ ________, close friend of a sponge",
+        "Add a letter to the front of ____ to get a standardized exam",
+        "Anagram ____ to get a condiment",
+        "Change the third letter of ____ to get someone sneaky",
+        "Counterpart to ____",
+        "Famous ____ of fiction",
+        "One day before ____",
+        "Your ____s are your ________s"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 14, 2026",
+      "url": "https://raddle.quest/2026/04/14/",
+      "note": "I had never heard of Patrick Watson before Big Ears, and I only attended his show because SML had just let out nearby and I had an hour to kill. I was blown away. It was lush, with Patrick alternating between souful piano playing and moody falsetto singing at a candlelit microphone at center stage. Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "DIRTY",
+      "end": "THREE",
+      "clues": [
+        "Anagram ____ to get a preposition",
+        "Anagram ____ to get a weapon",
+        "Animal metaphorically injured by a ____",
+        "Change one letter in ____ to get a fruit",
+        "Change one letter in ____ to get an art form",
+        "Drop the fourth letter from ____ and anagram to get relaxed",
+        "Popular TV show \"The ________ of ____\"",
+        "Popular video game \"____ ________\"",
+        "Reverse a bigram (two letters) in ____ to get a number",
+        "____ that requires two, canonically",
+        "The ____ ________, a tipping point",
+        "To ____ someone you might say \"________, ________\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 15, 2026",
+      "url": "https://raddle.quest/2026/04/15/",
+      "note": "Dirty Three played a late-night set at the Tennessee Theater on Friday, part of their first North American tour in 14 years. It was unhinged and Ellis was slightly off-putting, but it also melted my face off and left me invigorated, so, really, no complaints. Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "PERFUME",
+      "end": "GENIUS",
+      "clues": [
+        "\"____ ________\" (1959)",
+        "________ ____, a piece of camping gear",
+        "____________, category of several Olympic events",
+        "A ________ in a ____ might take years to arrive",
+        "\"____ and the ________\" (1991)",
+        "\"Bravo! What a ____ of ________!\"",
+        "Change one letter in ____ to get a container",
+        "Drop a trigram (three letters) from ____ to get a wise person",
+        "Drop the last letter from ____ to slump",
+        "Insert a letter into ____ to get a part of the body",
+        "____ usually comes in a ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 16, 2026",
+      "url": "https://raddle.quest/2026/04/16/",
+      "note": "The fun thing about seeing Perfume Genius live is he spends a lot of time on stage mimicking his album art and promo photos — laying on the ground and draped across chairs and wielding the mic stand like a joust. Of course it also helps that his music is so lively and catchy. Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "HANIA",
+      "end": "RANI",
+      "clues": [
+        "Add a letter to the front of ____ to get an animal sound",
+        "Add a trigram (three letters) to the front of ____ to get something in space",
+        "Anagram ____ to get a fishing tool",
+        "Band fronted by ____",
+        "____ covers a ________",
+        "____ creature of fantasy",
+        "Drop a bigram (two letters) from ____ to get a first name from sci-fi",
+        "Reverse ____ and insert an O to get a biblical name",
+        "Royal title in South Asia, roughly equivalent to ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 17, 2026",
+      "url": "https://raddle.quest/2026/04/17/",
+      "note": "Polish composer Hania Rani, who goes by Chilling Bambino when performing her electronic music, put on an mesmerizing set in the round. She moved between banks of synthesizers and microphones, while lights danced around her in colors. Rani's known for her composing work; she scored last year's \"Sentimental Value\". This was very different, and very different from the kind of music I usually see, but I was entranced for the whole hour. Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "HAWK",
+      "end": "TURTLES",
+      "clues": [
+        "____ ________, a fighting foursome, as they're casually known",
+        "________ ____, nickname for a certain weapon",
+        "________ ____, unwanted behavior in a serious setting",
+        "________ ____, what you have when vindicated",
+        "____ ________, without exception",
+        "A ____ ________ usually has cheaper prices",
+        "Change the first letter of ____ to an R and anagram to get a shape",
+        "\"____ of your ________!\"",
+        "Opposite of a ____, ideologically",
+        "Present tense of ____",
+        "What you do when you find something ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 18, 2026",
+      "url": "https://raddle.quest/2026/04/18/",
+      "note": "I never got to see Low live, so I was stoked to be able to catch Alan Sparhawk at Big Ears, who played the closing set with Trampled by Turtles, a bluegrass band also from Duluth, with whom he put out a 2025 album. He opened by talking about hope and light, and enjoined us to reflect on the weekend and all the new people we'd met and new music we'd heard. It was a powerful way to end the festival. Theme: Big Ears 2026 My family and I recently returned from our favorite weekend of the year, the Big Ears music festival in Knoxville, TN. I saw over 30 acts this year. This week's Raddles feature some of my favorites.",
+      "source": "scraped"
+    },
+    {
+      "start": "HADES",
+      "end": "PLUTO",
+      "clues": [
+        "____-________ tops the ranks",
+        "A ____-and-________ game",
+        "A ____ is a big ________",
+        "Drop the first letter from ____ and anagram to get a US President",
+        "Insert a letter into ____ to get a mammal",
+        "____'s middle \"name\"",
+        "Something a frustrated toddler might ____",
+        "Word for \"ghost\" that is an anagram of ____ (appropriately)",
+        "You might ________ ____ if you're being sassy"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 19, 2026",
+      "url": "https://raddle.quest/2026/04/19/",
+      "note": "Hades (Greek) / Pluto (Roman) is the god of the underworld (way down under the ground) ruling over the realm of the dead. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "ARTEMIS",
+      "end": "DIANA",
+      "clues": [
+        "____ ________, a know-it-all",
+        "____ ________, an advantageous position",
+        "____________, something shaky",
+        "____, aka the surface of the ________",
+        "Anagram ____ to get a tiny candy",
+        "Change one letter in ____ to get the opposite of ____",
+        "Drop every other letter in ____ to get a country",
+        "Positional adjective that sounds like \"____\"",
+        "____'s head of state",
+        "What a fabricator's ____ might be on?"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 20, 2026",
+      "url": "https://raddle.quest/2026/04/20/",
+      "note": "Artemis (Greek) / Diana (Roman) is the goddess of the hunt, the moon, and the wild. She roams the forests with her bow, protecting nature and the creatures within it. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "HELIOS",
+      "end": "SOL",
+      "clues": [
+        "A ________ might go from ____ to ____",
+        "A ____ is nothing but ________",
+        "A musician likely doesn't have a ____ ________",
+        "Anagram ____ to get a country",
+        "Change middle letter of ____ and reverse to get an element",
+        "Change one letter in ____ to become straightforward",
+        "Change one letter in ____ to get a basketball term",
+        "Drop the fourth letter from ____ and anagram to get some sights on a golf course",
+        "If it's ________ and ____, no other details are needed",
+        "Insert a letter into ____ to get a figure of speech"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 21, 2026",
+      "url": "https://raddle.quest/2026/04/21/",
+      "note": "Helios (Greek) / Sol (Roman) is the god of the sun, driving a chariot across the sky each day to bring light to the world. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "HERMES",
+      "end": "MERCURY",
+      "clues": [
+        "Change one letter in ____ to get some brave folk",
+        "Change the second letter of ____ to an L and anagram to get part of a flower",
+        "Drop the third letter from ____ and anagram to get a Middle Eastern food",
+        "In biology, the ________ kingdom contains lifeforms with ____s",
+        "Insert a letter into ____ to get a bit of formal wear",
+        "Insert a letter into ____ to get a famous sculpture",
+        "Insert a letter into ____ to get something in space",
+        "\"____\" is a song by ________",
+        "____ is often served in a ________",
+        "Pasta also known as ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 22, 2026",
+      "url": "https://raddle.quest/2026/04/22/",
+      "note": "Hermes (Greek) / Mercury (Roman) is the messenger of the gods, patron of travelers, merchants, and thieves, and the god who escorts souls to the underworld. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "EROS",
+      "end": "CUPID",
+      "clues": [
+        "____ ________, a bad sport",
+        "____________, a popular dating site",
+        "________ in ____, in old age",
+        "________ is sometimes depicted as a ____",
+        "\"________ ____\", you say with an eye roll",
+        "A ____ ________ might take a while to blossom",
+        "Add a letter to the front of ____ to get nearer",
+        "Change one letter in ____ to get a part of some rooms",
+        "Drop a letter from ____ to get a member of a certain generation",
+        "Reverse ____ to get a wound",
+        "Undesirable thing to find in one's ____?"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 23, 2026",
+      "url": "https://raddle.quest/2026/04/23/",
+      "note": "Eros (Greek) / Cupid (Roman) is the god of love and desire, often depicted as a winged youth armed with a bow and arrow. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "NIKE",
+      "end": "VICTORIA",
+      "clues": [
+        "____ ________, a certain wrestler's epithet",
+        "____ ________, common kitchen product",
+        "____ ________, final item on some lists?",
+        "\"____ ________ inside!\", sign found outside many a bar",
+        "'80s movie whose poster features a flying ____",
+        "Anagram ____ to become fancy",
+        "At the Olympics, a ____ is a ________",
+        "Change one letter in ____ to get a vehicle",
+        "First name of ____ Spice",
+        "Necessary ingredient in making ____",
+        "\"The ____ in the ________\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 24, 2026",
+      "url": "https://raddle.quest/2026/04/24/",
+      "note": "Nike (Greek) / Victoria (Roman) is the goddess of victory, depicted as a winged figure who descends from the heavens to bestow laurels on champions — while wearing Air Jordans. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "APHRODITE",
+      "end": "VENUS",
+      "clues": [
+        "____________, a form of pest control",
+        "A ________ ____ might open up beneath you",
+        "Canonical enemy of a ____",
+        "Comedian and actor ____ ________",
+        "Reverse ____ and double a letter to get something you open",
+        "Stick found inside ____",
+        "Supervillain who mimics a ____",
+        "Tennis star ________ ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 25, 2026",
+      "url": "https://raddle.quest/2026/04/25/",
+      "note": "Aphrodite (Greek) / Venus (Roman) is the goddess of love, beauty, and desire, born from the sea foam itself, as depicted in that famous Botticelli. Theme: Greek to Roman Gods Many of the gods in the Greek pantheon have different names in the Roman pantheon. This week's Raddles start at a Greek god and end at their Roman counterpart. In other news, I've been playing a lot of Hades II.",
+      "source": "scraped"
+    },
+    {
+      "start": "ADAM",
+      "end": "EVE",
+      "clues": [
+        "________ ____, a form of exercise",
+        "A ____________ works in the forest",
+        "Change one letter in ____ to get a building material",
+        "Change one letter in ____ to get a celestial body",
+        "Counterpart to the ____",
+        "Every other ________ is ____",
+        "Gig workers often take ________ ____",
+        "One of the founders of ____",
+        "____'s ________, part of the body",
+        "____ the ________ might get you disqualified",
+        "The ____ is usually seen at ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 26, 2026",
+      "url": "https://raddle.quest/2026/04/26/",
+      "note": "\"Adam and Eve\" is slang for \"believe\". As in, \"Would you Adam and Eve there’s a talking serpent here, and it wants us to take a bite of that apple?\" Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "BROWN",
+      "end": "BREAD",
+      "clues": [
+        "____ ________ lunch, so named after the container it comes in",
+        "\"____________!\" your parent might yell",
+        "Add a letter to the front of ____ to get something you eat",
+        "Anagram ____ to get a mammal",
+        "Change one letter in ____ to become external",
+        "Drop every other letter from ____ to get a liquor",
+        "Insert a letter into ____ to get a dessert",
+        "Kind of ____ often given out as swag",
+        "Word that ________s with ____",
+        "You might order ____ ________ in a deli"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 27, 2026",
+      "url": "https://raddle.quest/2026/04/27/",
+      "note": "\"Brown bread\" is Cockney rhyming slang for \"dead\". As in, \"my little brother threw a loaf of pumpernickel at me while I was napping, and now he’s brown bread!\" Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "BRASS",
+      "end": "TACKS",
+      "clues": [
+        "\"________ the ____\", progressive rallying cry",
+        "Append a /p/ sound to ____ to get a military term",
+        "\"____, but ________\", you might say about a regrettable situation",
+        "Change one letter in ____ to get a plant",
+        "Color of healthy ____",
+        "Drop the first letter from ____ and anagram to become unfortunate",
+        "Fasteners that sound like \"____\"",
+        "It appears right after ____",
+        "When you're ____, you're feeling ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 28, 2026",
+      "url": "https://raddle.quest/2026/04/28/",
+      "note": "\"Brass tacks\" is Cockney rhyming slang for \"facts\". Of course, you probably already know this, as it arguably has the biggest leap of any Cockney phrase into mainstream English, with \"getting down to brass tacks\" being a widely used idiom. Now you know where it comes from! Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "APPLES",
+      "end": "PEARS",
+      "clues": [
+        "________ ____ are smaller, tarter ____, but not ________s",
+        "\"________ ____\", game show",
+        "____ ________, omits",
+        "Add an O to ____ and anagram to get a reptile",
+        "Advance every letter in ____ three spaces forward in the alphabet to get an influential historical figure",
+        "Anagram ____ to get some fruit",
+        "Diagram for mapping out your ____",
+        "Drop a letter from ____ to get a rivalry",
+        "Three ________s lead to one ____",
+        "What falls from many a ____",
+        "____ : X :: ________ : /"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 29, 2026",
+      "url": "https://raddle.quest/2026/04/29/",
+      "note": "\"Apples and pears\" is Cockney rhyming slang for \"stairs\", as in \"Take the apples and pears to the basement and bring up that crate of bananas\". Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "BALL",
+      "end": "CHALK",
+      "clues": [
+        "____________, a \"gift\" from your cat?",
+        "____ ________, a kind of soda",
+        "____________, found in some classrooms",
+        "Append a letter to ____ to get a surfer's need",
+        "Change the vowel sound in ____ to find a place to get a ____",
+        "Drop a letter from ____ to get part of a tree",
+        "Insert a letter into ____ to get a mammal",
+        "____ is a not a human, but a ________",
+        "Painter with a famously stylized ____",
+        "Some ____ right under one's nose",
+        "Titular animated character that rhymes with ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "April 30, 2026",
+      "url": "https://raddle.quest/2026/04/30/",
+      "note": "\"Ball of chalk\" is Cockney rhyming slang for \"walk\". As in \"I’m going out for a ball of chalk; anyone need something from bodega?\" Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "ALMOND",
+      "end": "ROCKS",
+      "clues": [
+        "A ________ ____ is a ____ atop a ____",
+        "Anagram ____ to get an elderly person",
+        "Anagram ____ to get a piece of paper",
+        "Car part that rhymes with ____",
+        "Drop every other letter in ____ to get something frozen",
+        "Drop the last letter from ____ to get a pronoun",
+        "Plant that often has a central ____",
+        "Something made with a ____?",
+        "\"The ____ and ________\"",
+        "Use ____ ________s to date a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 1, 2026",
+      "url": "https://raddle.quest/2026/05/01/",
+      "note": "\"Almond rocks\" is Cockney rhyming slang for \"socks\", as in \"Aw nuts, after hiking on the beach my almond rocks are full of pebbles.\" Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "SHERBET",
+      "end": "DAB",
+      "clues": [
+        "____ ________, a confection",
+        "A ____ is used to process ________",
+        "Change one letter in ____ to get a refreshing substance",
+        "Drop every other letter in ____ to be wicked",
+        "Liquor that rhymes with ____",
+        "Reverse ____ to get a modern gesture",
+        "____'s famous blue character",
+        "Swap two letters in ____ to get a game company",
+        "____ that sounds like a wise person",
+        "Type of plant found inside ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 2, 2026",
+      "url": "https://raddle.quest/2026/05/02/",
+      "note": "\"Sherbet dab\" is Cockney rhyming slang for \"cab\" as in \"Better call me a sherbet dab, I’m getting tipsy on this boozy dessert.\" Theme: Cockney Rhyming Slang Cockney rhyming slang is a form of slang that originated in the East End of London in the mid-19th century, in which a word is replaced by a phrase that rhymes with it. It has since spread far beyond the East End, seeping into popular culture. And now, Raddle.",
+      "source": "scraped"
+    },
+    {
+      "start": "START",
+      "end": "IDES",
+      "clues": [
+        "________ ____, aesthetically pleasing measurement",
+        "____ ________, a fortuitous creature of myth",
+        "\"____ ________\", classic American kids book",
+        "A ____ ________ might be wild?",
+        "Add an R to ____ and anagram to get a math term",
+        "Anagram ____ to get a month",
+        "Change one letter in ____ to get something deep",
+        "Change one letter in ____ to get something lucky",
+        "Famously dangerous part of ____",
+        "Greek letter that means a ____",
+        "Insert a letter into ____ to get a first name"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 3, 2026",
+      "url": "https://raddle.quest/2026/05/03/",
+      "source": "scraped"
+    },
+    {
+      "start": "AGAIN",
+      "end": "LIFE",
+      "clues": [
+        "\"________ ____!\" 🤘🎉",
+        "________ ____, off ____",
+        "A ____ ________ might be given at the end of a ____",
+        "Body part with two ____s (no, the other one)",
+        "Insert a letter into ____ to get taste",
+        "\"I ____ you ________!\"",
+        "\"____ on your ________!\"",
+        "Organ used to detect ____",
+        "Where your ____ might be, when speaking insincerely?"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 4, 2026",
+      "url": "https://raddle.quest/2026/05/04/",
+      "source": "scraped"
+    },
+    {
+      "start": "BREAK",
+      "end": "LINE",
+      "clues": [
+        "____ ________ is a country in the very ____ of ________",
+        "\"____ ________\", nineteenth century novel",
+        "\"____ ________!\", one might demand at a rock concert",
+        "Anagram ____ to get a direction",
+        "Change one letter in ____ to flip (out)",
+        "Director ________ ____",
+        "Drop the last sound from ____ to become gratuitous",
+        "Famous river of ____",
+        "Swap two letters in ____ to get a dash",
+        "Two ____s, one ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 5, 2026",
+      "url": "https://raddle.quest/2026/05/05/",
+      "source": "scraped"
+    },
+    {
+      "start": "SCOTLAND",
+      "end": "MAJOR",
+      "clues": [
+        "____ ________, metonym used for London police",
+        "____________, puzzles with ____ that ________",
+        "____ ________ racing",
+        "________ ____s might line a sidewalk",
+        "____ ________, what you say on your way out",
+        "Add a letter to the front of ____ to get a citizen of an empire",
+        "Anagram ____ to get a kind of house",
+        "Change one letter in ____ to get a military rank",
+        "Change one letter in ____ to get the act of departure",
+        "It's roughly 109% of a ____",
+        "Only ____ that starts with O"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 6, 2026",
+      "url": "https://raddle.quest/2026/05/06/",
+      "source": "scraped"
+    },
+    {
+      "start": "THREAT",
+      "end": "BEAN",
+      "clues": [
+        "____________, a modern-day fake out",
+        "________ ____, the name of a real musician and a fictional antagonist",
+        "____ ________, titular character of four films",
+        "A ____ ________ is small and white (not blue, ironically)",
+        "Add a letter to the front of ____ to get a troublemaker",
+        "Alternative to ____",
+        "Append a letter to ____ to get a first name",
+        "Change one letter in ____ to get a part of the military",
+        "Drop a letter from ____ to get a nice thing",
+        "Drop the first letter from ____ to get a first name",
+        "Where a ____ lives, in stories"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 7, 2026",
+      "url": "https://raddle.quest/2026/05/07/",
+      "source": "scraped"
+    },
+    {
+      "start": "LLAMA",
+      "end": "KING",
+      "clues": [
+        "A circus often has ________ ____",
+        "Append a letter to ____ to get a color",
+        "Append a letter to ____ to get kind of security code",
+        "Change one letter in ____ to get a stereotypical dog name",
+        "Change the last letter in ____ then reverse it to become tiny",
+        "Drop the first letter from ____ and anagram to get a noble title",
+        "____ is a lighter form of ________",
+        "____ is Latin for ________",
+        "It's slightly more than ____",
+        "\"____ of the ________\"",
+        "\"What a ____ ________!\" you say after running into your third cousin at Disney World"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 8, 2026",
+      "url": "https://raddle.quest/2026/05/08/",
+      "source": "scraped"
+    },
+    {
+      "start": "SUNRISE",
+      "end": "DARK",
+      "clues": [
+        "________-____, an ignoramus",
+        "____ ________, rare find on a long-running game show",
+        "____ ________, something you might get at the doctor",
+        "A ____ in the ________",
+        "\"____ and ________…\"",
+        "Change one letter in ____ to get a supporter",
+        "Drop the first letter from ____ for this moment",
+        "Drop the first letter from ____ to get a bird",
+        "How often there's a ____",
+        "____ or ________, for when you want a second chance"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 9, 2026",
+      "url": "https://raddle.quest/2026/05/09/",
+      "source": "scraped"
+    },
+    {
+      "start": "HOLY",
+      "end": "DEAD",
+      "clues": [
+        "____ ________, a popular fast food choice",
+        "____________, comic anti-hero",
+        "\"____ ________!\" you say in amazement",
+        "Change one letter in ____ to get a portion",
+        "Drop a bigram (two letters) from ____ to get something ____ isn't",
+        "Drop every other letter from ____ to get a number",
+        "____ next to ____ looks like ________",
+        "Sport that starts with a ____",
+        "To ________ ____, neither win or lose"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 10, 2026",
+      "url": "https://raddle.quest/2026/05/10/",
+      "source": "scraped"
+    },
+    {
+      "start": "EGG",
+      "end": "RAVEN",
+      "clues": [
+        "Add a letter to the front of ____ to get a type of noodle",
+        "Anagram ____ to get a place for growing",
+        "Anagram ____ to get a response said in unison",
+        "____ and ________, full of intrigue",
+        "Change one letter in ____ to get a bird",
+        "Change one letter in ____ to get a hazard",
+        "Change one letter in ____ to get a kind of garment",
+        "Change the vowel sound in ____ to a long /a/ to get something we all have",
+        "Circular object that has ____ at the top",
+        "Small mythical figure that is sometimes found in one's ____",
+        "____s usually are sold in a set of ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 11, 2026",
+      "url": "https://raddle.quest/2026/05/11/",
+      "source": "scraped"
+    },
+    {
+      "start": "HUSH",
+      "end": "ALOHA",
+      "clues": [
+        "____ ________, a kind of crush",
+        "____ ________, informal term for sound judgment",
+        "Anagram ____ to get a condition or circumstance",
+        "Anagram ____ to get some warmth",
+        "Animal namesake of a casual ____ game",
+        "In Southern cuisine, a ____________ is a fried ball of dough",
+        "Sport played by the ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 12, 2026",
+      "url": "https://raddle.quest/2026/05/12/",
+      "source": "scraped"
+    },
+    {
+      "start": "LUCY",
+      "end": "LOST",
+      "clues": [
+        "________ ____, a sport played on a ________",
+        "An ____ is untouchable in ________",
+        "Change one letter in ____ to become discovered",
+        "Change one letter in ____ to become perilous",
+        "Drink that sounds like how a toddler might say \"____\"",
+        "Drop every other letter in ____ to get a card",
+        "Shape of a legendary ____",
+        "____'s partner on ’50s TV",
+        "\"The ________ in the ____\"",
+        "Type of ____ that's also a kind of bread"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 13, 2026",
+      "url": "https://raddle.quest/2026/05/13/",
+      "source": "scraped"
+    },
+    {
+      "start": "LIST",
+      "end": "BETWEEN",
+      "clues": [
+        "Add a letter to the front of ____ to get a music genre",
+        "Add two letters to the front of ____ to get a preposition",
+        "Anagram ____ to become docile",
+        "Change the vowel sound in ____ to a long /e/ to get a kid",
+        "Drop a letter from ____ to get a tech company",
+        "Insert a letter into ____ to get someone younger than a ____",
+        "\"____ or ________ ____\"",
+        "Reverse ____ to get a large amount"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 14, 2026",
+      "url": "https://raddle.quest/2026/05/14/",
+      "source": "scraped"
+    },
+    {
+      "start": "PALOMA",
+      "end": "RUMBA",
+      "clues": [
+        "____________, a certain worker with a shovel",
+        "A ____ ________, what some characters need in a ’70s movie",
+        "Append a bigram (two letters) to ____ to get a dance",
+        "Change one letter in ____ to defeat an opponent",
+        "Change one letter in ____ to get larger",
+        "Drop the first letter from ____ to get a liquor",
+        "Drop the first letter from ____ to have donated",
+        "Insert a letter into ____ to become serious",
+        "Instrument you ____",
+        "Mexican liquor that's the main ingredient in a ____",
+        "Plant that gets made into ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 15, 2026",
+      "url": "https://raddle.quest/2026/05/15/",
+      "note": "\"Paloma Rumba\" was Armenia's selection for Eurovision 2026, performed by SIMÓN. Here's the official music video. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "VANILLA",
+      "end": "NINJA",
+      "clues": [
+        "____ ________, a sweet ingredient",
+        "____ at the ________, to be impatient",
+        "Change one letter in ____ to get a victor",
+        "Frequent complement to ____",
+        "Insert a letter into ____ to get a mammal",
+        "Like ____ of ________, very heavily",
+        "Reverse ____ to get loads",
+        "The title of a popular ____ franchise is a portmanteau of ________ + ____",
+        "\"This is ________ ____!\"",
+        "Toy made up of tiny ____",
+        "Use a ________ ____ to make things holey"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 16, 2026",
+      "url": "https://raddle.quest/2026/05/16/",
+      "note": "Vanilla Ninja is an Estonian all-female rock band who represented the country in Eurovision with their song \"Too Epic to Be True\". Here's the official music video. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "CHOKE",
+      "end": "ME",
+      "clues": [
+        "\"________ of a ____\", you might say in amazement",
+        "Append a letter to ____ to get an organization concerned with your ____",
+        "Change one letter in ____ to get a cheese",
+        "Change one letter in ____ to get something done with a smile",
+        "Change one letter in ____ to get something taken to a ____",
+        "Change the vowel sound in ____ to a short /e/ to get a bill",
+        "Counterpart to a ____",
+        "\"It's all ____ to ________\"",
+        "Kind of salad that features ____",
+        "Metaphorical weapon belonging to ____",
+        "Playwright that sounds like \"____ off\"",
+        "Professional who gives ____ to a dog",
+        "The best ________ is ____, it's said"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 17, 2026",
+      "url": "https://raddle.quest/2026/05/17/",
+      "note": "\"Choke Me\" was Romania's Eurovision entry, by the artist Alexandra Căpitănescu. Here's the music video. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "SAL",
+      "end": "DA VINCI",
+      "clues": [
+        "________ ____, the subject of a tongue-twister",
+        "____ ________, titular hero of book and films",
+        "Add an N to ____ and anagram to get a famous painting",
+        "Append a letter to ____ to get a common ingredient (it's also what ____ means in Spanish)",
+        "Artist who made \"____\"",
+        "Change a vowel sound in ____ to a long /i/ to get a kind of musician",
+        "Change one letter in ____ to get a container",
+        "Change one letter in ____ to get letters",
+        "____ is ~5000 km west of this country, but it's also … inside of it?",
+        "____ is a slang term for ________",
+        "Swap two letters in ____ to get a country"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 18, 2026",
+      "url": "https://raddle.quest/2026/05/18/",
+      "note": "Sal Da Vinci represented Italy with his song \"Per sembre si\", which translates to \"Forever Yes\". You can watch the music video here. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "DANCING",
+      "end": "ICE",
+      "clues": [
+        "________ ____, a rare thing to roll",
+        "________ ____, nickname for most popular Halloween costume in my neighborhood for 13 years running",
+        "Artist with the 1986 banger \"____\"",
+        "Change one letter in ____ to get a chocolate treat",
+        "Hard looks that sound like \"____\"",
+        "Insert a letter into ____ to get a way to get up",
+        "____ is made of ________",
+        "One ____ with their ________",
+        "\"____ with the ________\", show going for 35 seasons and counting"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 19, 2026",
+      "url": "https://raddle.quest/2026/05/19/",
+      "note": "\"Dancing on the Ice\", by singer Essyla, was Belgium's entry in Eurovision 2026. It finished in 21st place. Here is their live performance. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "CROSS",
+      "end": "ROADS",
+      "clues": [
+        "\"________ and the ____\"",
+        "____ ________ are often unpaved",
+        "____________, a rhyming part of ________",
+        "____________, one way to ride a horse",
+        "Add a letter to the front of ____ to get some transportation",
+        "Add a letter to the front of ____ to get the other side (of the street)",
+        "Add an A to ____ and reverse to get part of a graph",
+        "A larger version of a ____",
+        "Change one letter in ____ to get naked",
+        "Counterpart to ____, in a certain context",
+        "Number that's one letter off from ____",
+        "What you're charged in ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 20, 2026",
+      "url": "https://raddle.quest/2026/05/20/",
+      "note": "Czechia was represented at the Eurovision with the song \"Crossroads\", performed by Daniel Zizka. Here is their live performance. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "MUM",
+      "end": "COMPUTER",
+      "clues": [
+        "________ ____ and say nothing",
+        "\"____ ________\", seminal 1997 album",
+        "________ ____, where you can't breathe",
+        "Add a letter to the front of ____ to get a meal",
+        "Drop every other letter from ____ to get an approval",
+        "Drop the last letter from ____ and anagram to get an absence",
+        "Pointy thing used at ____",
+        "Reverse ____ to get a look",
+        "The ____ who is friendly",
+        "Thing that goes \"____!\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 21, 2026",
+      "url": "https://raddle.quest/2026/05/21/",
+      "note": "Look Mum No Computer is the stage name of British electronic musician Sam Battle. Their song \"Eins, Zwei, Drei\" was the United Kingdom's official selection at Eurovision. Here is their live performance. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "MOTHER",
+      "end": "NATURE",
+      "clues": [
+        "____________, one of the most visited sites on the internet",
+        "____ ________, really under the wire",
+        "Anagram ____ to become final",
+        "A ____ of ________ should be taken with some things",
+        "Change one letter in ____ to get a seed",
+        "If you know it well, it's ____ ________",
+        "In London, The ____ is located ________",
+        "Pronoun that sounds like \"____\"",
+        "The ____ ________, a massive act of resistance"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 22, 2026",
+      "url": "https://raddle.quest/2026/05/22/",
+      "note": "\"Mother Nature\", by singer, songwriter, and violinist Eva Marija, was Luxembourg's entry in Eurovision 2026. Here is a video of her live performance. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "MONROE",
+      "end": "LOOK",
+      "clues": [
+        "____________, a watercraft",
+        "____ ________, a way to get high, before coming down",
+        "2 is the ____ ________ of 8",
+        "Change one letter in ____ to get a business that gives you a ____",
+        "Change one letter in ____ to get a game piece",
+        "Change one letter in ____ to get a glance",
+        "Change the last letter in ____ to a C and anagram to get a shape",
+        "Drop a trigram (three letters) from ____ to get a method of transport",
+        "Drop the N from ____ and anagram to get a Shakespearean character",
+        "Main competitor to ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 23, 2026",
+      "url": "https://raddle.quest/2026/05/23/",
+      "note": "France was represented at Eurovision with \"Regarde!\", which is a French exclamation that can translate to \"Look!\" in English. It was performed by the artist Monroe, and you can watch her performance here. Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "BANGA",
+      "end": "RANG",
+      "clues": [
+        "____________, a kind of cookie",
+        "Bowling, in some forms, uses ____ ________",
+        "Change one letter in ____ to get a part of the body",
+        "Change one letter in ____ to get a style of art",
+        "Change one letter in ____ to get something easy",
+        "Country that ____ comes from",
+        "Number that rhymes with ____",
+        "What's worn on a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 24, 2026",
+      "url": "https://raddle.quest/2026/05/24/",
+      "note": "The champion of Eurovision 2026 is Bulgaria, with the song \"Bangaranga\", written and performed by singer Dara. It's Bulgaria's first win. The live performance is something else, kinetic and catchy and weird, making it a perfect contender for the crown. Bangaranga! Theme: Eurovision 2026 The 2026 Eurovision Song Contest not only has incredible music, but also comes with some fun song titles and artist names. Here are a few that work well as Raddles.",
+      "source": "scraped"
+    },
+    {
+      "start": "KING",
+      "end": "AVALANCHE",
+      "clues": [
+        "\"________ ____ Day\" (2002)",
+        "Add an E to the front of ____ and reverse part of it to get a kind of sign",
+        "A mass of tumbling ____",
+        "Change one letter in ____ to get a goofball",
+        "Drop the first letter from ____ to get some cubes",
+        "Insert a letter into ____ to get a kind of mythology",
+        "Insert a letter into ____ to get some cubes",
+        "____ or ________, a mantra of determination",
+        "____, relating to this country",
+        "Remove one letter in ____ to get a stunned exclamation",
+        "The red part of a ____, often"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 25, 2026",
+      "url": "https://raddle.quest/2026/05/25/",
+      "note": "The Colorado Avalanche defeated the LA Kings in round 1, four games to zero. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "STAR",
+      "end": "WILD",
+      "clues": [
+        "________ ____, common member of an orchestra",
+        "________ ____, subjects of experimentation",
+        "Append an E to ____ to get nothing",
+        "Change one letter in ____ to become missing",
+        "Change one letter in ____ to become ridiculous",
+        "Insert a letter into ____ to get a young animal",
+        "One of two curvy things on a ____",
+        "Reverse ____ to get some critters",
+        "\"____ with the ________\" (1939)"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 26, 2026",
+      "url": "https://raddle.quest/2026/05/26/",
+      "note": "The Minnesota Wild eliminated the Dallas Stars in Round 1, winning the best-of-seven series in 6 games. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "BRUIN",
+      "end": "SABRE",
+      "clues": [
+        "80s TV show set in a ____",
+        "A ________ ____ doesn't exist, it's said",
+        "Add a B to ____ and anagram to get a popular vacation service",
+        "Anagram ____ to get a weapon",
+        "Change one letter in ____ to get a kind of plant",
+        "Change one letter in ____ to get an organ",
+        "Change one letter in ____ to get some mammals",
+        "Drop the last letter from ____ to get a gathering place",
+        "It's usually a few hours after ____",
+        "____ rhymes with ________, which you might hold while saying \"____\"",
+        "What the last letter of ____ would ostensibly stand for"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 27, 2026",
+      "url": "https://raddle.quest/2026/05/27/",
+      "note": "The Buffalo Sabres eliminated the Boston Bruins in Round 1, winning the best-of-seven series in 6 games with a 4-2 count. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "MAMMOTH",
+      "end": "KNIGHT",
+      "clues": [
+        "Add a G to ____ and reverse to get a body of water",
+        "Ailment that sounds like \"____\"",
+        "Change one letter in ____ to get a board game piece",
+        "Change one letter in ____ to get a sport",
+        "Drop a trigram (three letters) from ____ to get an insect",
+        "Insert a letter into ____ to get a bunch",
+        "Insert a letter into ____ to get a unit of time",
+        "Insert a letter into ____ to have soared",
+        "Neighbor to a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 28, 2026",
+      "url": "https://raddle.quest/2026/05/28/",
+      "note": "The Vegas Golden Knights eliminated the Utah Mammoth in Round 1, winning the best-of-seven series in 6 games. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "OILER",
+      "end": "DUCK",
+      "clues": [
+        "________ ________ ____",
+        "____ ________, feature of many mysteries",
+        "____________, kid-lit series with over 200 (!) titles",
+        "\"____ ________\", nineteenth century novel",
+        "Add a letter to the front of ____ to get some bulges",
+        "Add a V to ____ and anagram to get a name",
+        "Drop a trigram (three letters) from ____ to get part of a game"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 29, 2026",
+      "url": "https://raddle.quest/2026/05/29/",
+      "note": "The Anaheim Ducks eliminated the Edmonton Oilers in Round 1, winning the best-of-seven series in 6 games. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "CANADIEN",
+      "end": "LIGHTNING",
+      "clues": [
+        "Anagram ____ to get an indigenous people",
+        "Anagram ____ to get an online tool",
+        "Append a letter to ____ to get something you can play, or lay",
+        "Bird associated with ____",
+        "Change the first two letters in ____ to get a god",
+        "Game piece found inside ____",
+        "____ is known to produce",
+        "____ live mostly in (what's called) ________",
+        "Marking on a ____",
+        "Phenomenon that accompanies ____",
+        "Video game character who loves going in ____s"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 30, 2026",
+      "url": "https://raddle.quest/2026/05/30/",
+      "note": "The Montréal Canadiens eliminated the Tampa Bay Lightning in Round 1, winning the best-of-seven series in 7 games. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "HURRICANE",
+      "end": "SENATOR",
+      "clues": [
+        "________ ____, a detective",
+        "____ ________, hip-hop group popular in the '90s",
+        "____-________, some relatives",
+        "Anagram ____ to get a country",
+        "Change the vowel in ____ to become fashionable",
+        "Insert a letter into ____ to get some sycophants",
+        "One who makes ____",
+        "Opposite of ____",
+        "Opposite of the first half of ____",
+        "Reverse ____ to get a preposition",
+        "The center of a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "May 31, 2026",
+      "url": "https://raddle.quest/2026/05/31/",
+      "note": "The Carolina Hurricanes eliminated the Ottawa Senators in Round 1, winning the best-of-seven series in 4 games. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "FLYER",
+      "end": "PENGUIN",
+      "clues": [
+        "________ ____, a kind of point-earner",
+        "____________, end of some tennis matches",
+        "Animal that is \"wearing\" a ____",
+        "Change a letter in ____ to get some diving positions",
+        "Change one letter in ____ to get a time for coffee",
+        "Clothing that sounds like \"____\"",
+        "Drop the first letter from ____ to get a contrary exclamation",
+        "Drop the last half of \"____\" and the remainder sounds like a type of unusual event",
+        "It never ____s, it's said",
+        "____ the ________, to bind two entities together",
+        "Two curving things on an ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 1, 2026",
+      "url": "https://raddle.quest/2026/06/01/",
+      "note": "The Philadelphia Flyers eliminated the Pittsburgh Penguins in Round 1, winning the best-of-seven series in 6 games. Theme: Stanley Cup 2026 The NHL Stanley Cup is finishing up. Here are 8 Raddles based on the first round match-ups of this year's tournament.",
+      "source": "scraped"
+    },
+    {
+      "start": "LITTLE",
+      "end": "BEAR",
+      "clues": [
+        "____ ________, a thin thing some people can grow",
+        "____ ________, titular nursery rhyme pet",
+        "Change one letter in ____ to get a condiment",
+        "Change one letter in ____ to get a thing you press",
+        "Common ____ go-with",
+        "Common partner to ____",
+        "Drop the last letter from ____ to get a mammal",
+        "Everyone has a ________ ____",
+        "Tool filled with ____",
+        "____, when abbreviated, is the symbol for this element"
+      ],
+      "solution": [],
+      "theme": "Tony Awards",
+      "date": "June 2, 2026",
+      "url": "https://raddle.quest/2026/06/02/",
+      "note": "\"Little Bear Ridge Road\" is nominated for Best Play. It tells the story of a sharp-witted aunt and long-estranged nephew unraveling their family’s messy history in the process of attempting to sell a crumbling house. I got to see this during its original run at Steppenwolf in Chicago, and was blown away. Laurie Metcalf is a national treasure. Theme: 2026 Tony Awards The Tony Awards will be handed out this Sunday. Here are some Raddles based on plays and musicals nominated this year.",
+      "source": "scraped"
+    },
+    {
+      "start": "LOST",
+      "end": "BOYS",
+      "clues": [
+        "Change one letter in ____ to get a currency",
+        "Change one letter in ____ to get an old video game",
+        "Change one letter in ____ to get a writing tool",
+        "Change one letter in ____ to get some dudes",
+        "Drop a letter from ____ to get an instrument",
+        "Drop a letter from ____ to get a single time",
+        "Drop the last letter from ____ to get a kind of security code",
+        "Subdivision of a ____",
+        "The game of ________-____",
+        "Words from a lectern: \"________ ____, ________ twice…\""
+      ],
+      "solution": [],
+      "theme": "Tony Awards",
+      "date": "June 3, 2026",
+      "url": "https://raddle.quest/2026/06/03/",
+      "note": "Receiving 12 nominations at this year’s Tony Awards, \"The Lost Boys\" is a musical adaptation of the cult-classic film and features music and lyrics by The Rescues. Theme: 2026 Tony Awards The Tony Awards will be handed out this Sunday. Here are some Raddles based on plays and musicals nominated this year.",
+      "source": "scraped"
+    },
+    {
+      "start": "ACROSS",
+      "end": "NEW YORK",
+      "clues": [
+        "____ ________, a kind of reservation",
+        "____________, a requirement when you drive",
+        "____ ________ is found in the produce section",
+        "1997 film with eleven ____",
+        "Anagram ____ to get an annual award ceremony, with \"The\"",
+        "Clothing item that sounds like \"____\"",
+        "Drop the first letter from ____ and anagram to get a drink",
+        "Insert a letter into ____ to get a piece of clothing",
+        "Sandwich with ____ in the middle",
+        "\"The ________ ____s\""
+      ],
+      "solution": [],
+      "theme": "Tony Awards",
+      "date": "June 4, 2026",
+      "url": "https://raddle.quest/2026/06/04/",
+      "note": "Receiving eight nominations at this year’s Tony Awards, \"Two Strangers (Carry a Cake Across New York)\" tells the story of Dougal and Robin, two attendees of the same wedding navigating their way through both New York City and familial secrets. Theme: 2026 Tony Awards The Tony Awards will be handed out this Sunday. Here are some Raddles based on plays and musicals nominated this year.",
+      "source": "scraped"
+    },
+    {
+      "start": "BECKY",
+      "end": "SHAW",
+      "clues": [
+        "____________, a playground sight",
+        "____ & ________, one's main source of revenue",
+        "A ________ in the ____",
+        "Animal that might be called a ____?",
+        "Change one letter in ____ to get a part of the body",
+        "Drop the last letter from ____ to get a mononymic singer",
+        "Insert a letter into ____ to get a playwright",
+        "____ is French for ________",
+        "\"Now you ________ ____…\"",
+        "Pronoun found at the end of ____",
+        "The last letter in ____ stands for ________",
+        "Word that ________s with ____"
+      ],
+      "solution": [],
+      "theme": "Tony Awards",
+      "date": "June 5, 2026",
+      "url": "https://raddle.quest/2026/06/05/",
+      "note": "Receiving two nominations at this year’s Tony Awards, \"Becky Shaw\" is a dark comedy that tells the story of a blind date set-up gone terribly wrong for everyone involved. Theme: 2026 Tony Awards The Tony Awards will be handed out this Sunday. Here are some Raddles based on plays and musicals nominated this year.",
+      "source": "scraped"
+    },
+    {
+      "start": "BRILLIANT",
+      "end": "THING",
+      "clues": [
+        "____________, a goose egg",
+        "____________, a shape round on the bottom and thin on top",
+        "____ ________, bad thing to be behind. metaphorically",
+        "________ the ____, to mess up",
+        "Anagram ____ to become nifty",
+        "Append a letter to ____ to get part of a poker game",
+        "Change one letter in ____ to get a number",
+        "Change one letter in ____ to get some dread",
+        "Change the vowel sound in ____ to a /ī/ (long I) to get dark time",
+        "\"Have ________ ____, I've got it under control\"",
+        "Insect found at the end of ____"
+      ],
+      "solution": [],
+      "theme": "Tony Awards",
+      "date": "June 6, 2026",
+      "url": "https://raddle.quest/2026/06/06/",
+      "note": "Receiving two nominations at this year’s Tony Awards, Duncan Macmillan and Jonny Donahoe’s \"Every Brilliant Thing\" features Daniel Radcliffe in a heartwarming solo show. Theme: 2026 Tony Awards The Tony Awards will be handed out this Sunday. Here are some Raddles based on plays and musicals nominated this year.",
+      "source": "scraped"
+    },
+    {
+      "start": "RAG",
+      "end": "TIME",
+      "clues": [
+        "\"________ a ____!\" you might say in annoyance",
+        "2023 movie based on a ____",
+        "A ____ ________ is a toy made of cloth",
+        "A ________ ____ likes to bet big",
+        "A ________ ____ usually has four wheels",
+        "Add a letter to the front of ____ to get a primitive weapon",
+        "Add an I to ____ and anagram to get a Greek god",
+        "Change one letter in ____ to get an outdoor activity",
+        "\"It's ____ ________…\", the ideal ________ is overdue",
+        "Swap two letters in ____ to get something worn on the foot"
+      ],
+      "solution": [],
+      "theme": "Tony Awards",
+      "date": "June 7, 2026",
+      "url": "https://raddle.quest/2026/06/07/",
+      "note": "Receiving 11 nominations at this year’s Tony Awards, \"Ragtime\" is a musical adaptation of E.L. Doctorow’s famous novel that follows three fictional families all chasing the American Dream at the onset of the 20th Century. Theme: 2026 Tony Awards The Tony Awards will be handed out this Sunday. Here are some Raddles based on plays and musicals nominated this year.",
+      "source": "scraped"
+    },
+    {
+      "start": "INK",
+      "end": "UNLUCKY",
+      "clues": [
+        "\"________, ________, on ____…\"",
+        "____ ________ is often the hub of a town",
+        "A ________ ____ is an (unpleasant) surprise",
+        "A broken ____ is considered ________",
+        "Add an E to ____ to get a religious figure",
+        "Animal that uses ____ for defense",
+        "Change one letter in ____ to get a test",
+        "Drop the first letter from ____ to get a slang term some money",
+        "____ is represented by this animal",
+        "Name taken by the current ____",
+        "Term for a pipe that sounds like \"____\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 8, 2026",
+      "url": "https://raddle.quest/2026/06/08/",
+      "source": "scraped"
+    },
+    {
+      "start": "HEAD",
+      "end": "TANGO",
+      "clues": [
+        "________ and ____, an Olympic event",
+        "________ ____ involves lots of Caribbean spices",
+        "________ ____, namesake for those who panic easily",
+        "________ ____, part of a circus",
+        "A ____________ appears above an article",
+        "Anagram ____ to get a weapon",
+        "Change one letter in ____ to get a way to move",
+        "The ________ ____ is the final total"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 9, 2026",
+      "url": "https://raddle.quest/2026/06/09/",
+      "source": "scraped"
+    },
+    {
+      "start": "THORN",
+      "end": "SPINAL TAP",
+      "clues": [
+        "\"____ ________\" (1984)",
+        "________ ____, a sports event in June… and one in September",
+        "____________, a ____ with plenty of ________ in it",
+        "\"________ ____\", modern TV show that ran for 6 seasons",
+        "____ ________, old-fashioned term for a place to go?",
+        "Anagram ____ to get a direction",
+        "Anagram ____ to get a fruit",
+        "\"____ by ____________\" (1959)",
+        "Change one letter in ____ to get a word on a door, sometimes",
+        "Change one letter in ____ to get some gusto",
+        "Source of of yellow ____, in recipes"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 10, 2026",
+      "url": "https://raddle.quest/2026/06/10/",
+      "source": "scraped"
+    },
+    {
+      "start": "WINDSHIELD",
+      "end": "HONEYCOMB",
+      "clues": [
+        "________ ____, a menacing glare",
+        "________s are often turned into ____",
+        "Add a D to ____ and anagram to get a sin",
+        "Add an S to ____ and anagram to get something that crawls",
+        "Change one letter in ____ to get a habitat",
+        "Drink that rhymes with ____",
+        "Drop the first letter from ____ and anagram to get a place to dock",
+        "Interior structure of a ____",
+        "It clears a ____",
+        "Reverse ____ to survive",
+        "\"The ____ of my ________\""
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 11, 2026",
+      "url": "https://raddle.quest/2026/06/11/",
+      "source": "scraped"
+    },
+    {
+      "start": "DESK",
+      "end": "REVOLUTION",
+      "clues": [
+        "____ ________, a cocktail",
+        "____ ________, historic 1910s event",
+        "____________, might be a menu category",
+        "Add a letter to the front of ____ to get a gas company",
+        "Change one letter in ____ to get a hot place",
+        "Drop the first letter from ____ to get some dudes",
+        "\"____ in ________\" (1997)",
+        "Reverse ____ to get an (often bad) sign",
+        "The IT department usually has a ________ ____",
+        "Titular animated clown____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 12, 2026",
+      "url": "https://raddle.quest/2026/06/12/",
+      "source": "scraped"
+    },
+    {
+      "start": "ENGINE",
+      "end": "SCORE",
+      "clues": [
+        "________'s ____, weather phenomenon",
+        "A ________ ____ might show up to put out a ________",
+        "Change a vowel sound in ____ to a long /ē/ to get a pointy thing",
+        "Change the second letter in ____ to an H and anagram to get a 19th century literary character",
+        "Culinary term that's a nickname for one's ____",
+        "Drop a letter from ____ to resolve",
+        "Location of the Space ____",
+        "Middle name of ____'s author",
+        "Remove every other letter from ____ to get an organ",
+        "\"____ the ________\" (1982)",
+        "____ the ________, to get even"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 13, 2026",
+      "url": "https://raddle.quest/2026/06/13/",
+      "source": "scraped"
+    },
+    {
+      "start": "LEGO",
+      "end": "SWEET",
+      "clues": [
+        "____________, a treat at a parlor",
+        "____________s make ________ but aren't actually ____s",
+        "Add a letter to the front of ____ to become toasty",
+        "Change one letter in ____ to get a liquid",
+        "Change one letter in ____ to get a taste",
+        "Change one letter in ____ to get bait",
+        "Counterpart to ____, for pricey things",
+        "Drop the last letter from ____ to get a part of a journey",
+        "What the small ____ indicates",
+        "You might ____ someone else's ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 14, 2026",
+      "url": "https://raddle.quest/2026/06/14/",
+      "source": "scraped"
+    },
+    {
+      "start": "TRAIN",
+      "end": "POTASSIUM",
+      "clues": [
+        "\"________ to Be ____\", 1968 hit",
+        "____ ________, very naive",
+        "Change one letter in ____ (and drop a diacritic) to get a fruit",
+        "Change one letter in ____ to the starting squad",
+        "Drop the first part of ____ and anagram to get a tech company",
+        "Originally, all ____s ran on ________",
+        "Past : ____ :: Future : ________",
+        "____s are high in ________",
+        "Swap the two halves of ____ to become docile"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 15, 2026",
+      "url": "https://raddle.quest/2026/06/15/",
+      "source": "scraped"
+    },
+    {
+      "start": "ROSE",
+      "end": "CONNECT",
+      "clues": [
+        "____ ________, a pattern",
+        "________ the ____ and figure it out",
+        "Add a K to ____ and anagram to get a dance",
+        "Change one letter in ____ to get a body part",
+        "Change one letter in ____ to get a gemstone",
+        "Come ____ ________, to return to where it started",
+        "If your ____ is ________, you might need to blow it",
+        "____ on ________, exhausted"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 16, 2026",
+      "url": "https://raddle.quest/2026/06/16/",
+      "source": "scraped"
+    },
+    {
+      "start": "TOOTH",
+      "end": "UNO",
+      "clues": [
+        "Add an S to the front of ____ and it sounds like this kind of talk",
+        "Append two letters to ____ to annoy",
+        "Change one letter in ____ to get a fruit",
+        "Change one letter in ____ to get a place to vote",
+        "Change one letter in ____ to get a portion",
+        "Drop a letter from ____ to get not just one",
+        "Drop the first letter from ____ and anagram to get a card game",
+        "Homophone of \"____\" that means tranquility",
+        "Insert a letter into ____ to get a relative",
+        "\"____\" is this part of ____",
+        "The daughter of a ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 17, 2026",
+      "url": "https://raddle.quest/2026/06/17/",
+      "source": "scraped"
+    },
+    {
+      "start": "RUBBER",
+      "end": "OCTOPUS",
+      "clues": [
+        "A ____ ________ holds things together",
+        "A ________ ____ is dangerously out of control",
+        "Anagram ____ to get a place for veggies",
+        "Change one letter in ____ to get a bird",
+        "Change one letter in ____ to get a connection",
+        "Change one letter in ____ to get a weapon",
+        "____ means this much, in a certain system",
+        "____'s boss, in film",
+        "The ____ ________ is one mile deep",
+        "The Beatles sang about the ____ of an ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 18, 2026",
+      "url": "https://raddle.quest/2026/06/18/",
+      "source": "scraped"
+    },
+    {
+      "start": "OLE",
+      "end": "UP",
+      "clues": [
+        "____ ________, an Olympic event",
+        "A ____-________ isn't first",
+        "Add a letter to the front of ____ to get a rod",
+        "Business that might have a locked ____",
+        "Change the double letter in ____ to another double letter to get someone on the go",
+        "Counterpart to a ____, often",
+        "Customer-facing employee of a ____",
+        "Drop a letter from ____ to get a holding place",
+        "Name for an ____ in the UK",
+        "Pink thing at the end of an ____, often"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 19, 2026",
+      "url": "https://raddle.quest/2026/06/19/",
+      "source": "scraped"
+    },
+    {
+      "start": "HIGH",
+      "end": "NOON",
+      "clues": [
+        "________ ____, online subscription service",
+        "____________ star / deadly ____________",
+        "Anatomical term for the end of a ____",
+        "Change one letter in ____ to get something you ____",
+        "Change the double letter in ____ to another double letter to get a time of day",
+        "Drop the outside letters from ____ to get away?",
+        "Kind of minister that rhymes with ____",
+        "Swap two letters in ____ to get a fruit",
+        "\"The ________ ____ City\" is in North America",
+        "The ____ ________ is in South America"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 20, 2026",
+      "url": "https://raddle.quest/2026/06/20/",
+      "source": "scraped"
+    },
+    {
+      "start": "ROOM",
+      "end": "STONE",
+      "clues": [
+        "____ ________, a kind of piano",
+        "________ ____, Grammy-winning musician",
+        "Change one letter in ____ to get a female name",
+        "Change one letter in ____ to get an explosion",
+        "Change one letter in ____ to get a popular hashtag",
+        "First : ________ :: Second : ____",
+        "Oscar winner ____ ________",
+        "The ________ ____ happened after WWII",
+        "What the first letter of ____ stands for",
+        "When spelled out, \"____\" sounds like ________",
+        "Your ________'s ________ is ____________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 21, 2026",
+      "url": "https://raddle.quest/2026/06/21/",
+      "source": "scraped"
+    },
+    {
+      "start": "ELMO",
+      "end": "MICKEY",
+      "clues": [
+        "________ ____, almost 100-year-old icon",
+        "____ ________s can go on a bagel",
+        "Anagram ____ to get sticky stuff",
+        "\"Animal\" often next to a ____",
+        "Change one letter in ____ to get this, for example",
+        "Change the second letter in ____ to get something going downhill?",
+        "Computer peripheral covered in ____s",
+        "Miss ________ in \"____\"",
+        "Olympic sport with a ____",
+        "Street that ____ lives on",
+        "The ____ ________ means a mark of dishonor"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 22, 2026",
+      "url": "https://raddle.quest/2026/06/22/",
+      "source": "scraped"
+    },
+    {
+      "start": "DIVE",
+      "end": "FAME",
+      "clues": [
+        "\"________ in the ____\", 1970s TV show",
+        "________ ____, where many branches meet up",
+        "Add a letter to the front of ____ to get an event space",
+        "Add an I to ____ and anagram to get an event for alums",
+        "____ a hard ________, be uncompromising",
+        "A ____ of ________ celebrates the best",
+        "Drop every other letter in ____ to get some cereal",
+        "Insert a letter into ____ to get an organ",
+        "Insert a letter into ____ to get some motivation"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 23, 2026",
+      "url": "https://raddle.quest/2026/06/23/",
+      "source": "scraped"
+    },
+    {
+      "start": "ICING",
+      "end": "BABE RUTH",
+      "clues": [
+        "\"________ ____\", American traditional song",
+        "\"________ eat ____!\", oft-misattributed quote",
+        "\"____ ________\" modern slang of encouragement",
+        "____ ________, someone who makes eight figures?",
+        "Add an /l/ sound to ____ to get a food",
+        "Anagram ____ to get something that can be winning or losing",
+        "Change one letter in ____ to get a scribble",
+        "Dessert often topped with ____",
+        "Drop every other letter from ____ to get something often found in a ____",
+        "First ____ in the Hall of Fame",
+        "To ____, you must be in the ________"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 24, 2026",
+      "url": "https://raddle.quest/2026/06/24/",
+      "source": "scraped"
+    },
+    {
+      "start": "TALL",
+      "end": "CHAI",
+      "clues": [
+        "________ of ____, natural symbol across many religions",
+        "A ____ ________ often involves staying up late",
+        "Add a letter to the front of ____ to get some sleep",
+        "Building material made from a ____",
+        "Change one letter in ____ to get a fancy dance",
+        "\"____ of ________\", unifying song from a 1994 movie",
+        "The Boston ________ ____",
+        "Type of ____ that literally means \"____\" in its original language"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 25, 2026",
+      "url": "https://raddle.quest/2026/06/25/",
+      "source": "scraped"
+    },
+    {
+      "start": "DIARY",
+      "end": "V ",
+      "clues": [
+        "____ ________, deep fried side",
+        "________ ____, raise a false alarm",
+        "____________, the movement of ____ through a space",
+        "Atmosphere found inside ____",
+        "Birds that rhyme with ____",
+        "Event symbolized by colored ____",
+        "Foodstuff that can make you ____",
+        "Reverse a bigram (two letters) in ____ to get a grocery section",
+        "Reverse ____ to get a mammal",
+        "Typical ____ formation",
+        "Where the ____ were founded"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 26, 2026",
+      "url": "https://raddle.quest/2026/06/26/",
+      "source": "scraped"
+    },
+    {
+      "start": "SAM",
+      "end": "PERFECT",
+      "clues": [
+        "____ ________, a sweet cocktail",
+        "____ ________ improves your accuracy",
+        "Add a letter to the front of ____ to get a small mammal",
+        "Add a T to ____ and anagram to get a (often circular) goal",
+        "Append a letter to ____ to get a singer and actress big in the ’90s",
+        "Change one letter in ____ to get a logomark",
+        "____-I-________, Seussian protagonist",
+        "I : ____ :: You : ________",
+        "Part of the body that sounds like \"____\"",
+        "What ____ makes, it's said"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 27, 2026",
+      "url": "https://raddle.quest/2026/06/27/",
+      "source": "scraped"
+    },
+    {
+      "start": "RAPUNZEL",
+      "end": "BLACKJACK",
+      "clues": [
+        "________ ____, 2002 film with four sequels so far",
+        "____ ________, a close one",
+        "________ ____, very distant",
+        "A ____________ is stranded",
+        "Card game in which you might ____",
+        "Disney movie about ____",
+        "Drop every other letter in ____ to ripen",
+        "Game piece that sounds like the first syllable of \"____\"",
+        "\"The ____ is ________\", so there's no going back",
+        "Valuable things sometimes called ____"
+      ],
+      "solution": [],
+      "theme": "",
+      "date": "June 28, 2026",
+      "url": "https://raddle.quest/2026/06/28/",
       "source": "scraped"
     },
     {
