@@ -25,13 +25,16 @@ A word ladder puzzle game inspired by Raddle.quest where you transform one word 
 
 ## ✨ Features
 
-- **398 Built-in Puzzles** with varying difficulty levels and themes (383 collected + 15 custom)
+- **964 Puzzles** (844 scraped from raddle.quest + 120 custom) with daily auto-updates
+- **Archive Page** to browse all puzzles by theme, filter by source, and sort by date
+- **Themed Categories** spanning MIT Mystery Hunt, Winter Olympics, Grateful Dead, Eurovision, NHL Playoffs, and more
 - **Shuffled Clues** to increase the challenge
 - **Real-time Validation** checks if words differ by one letter
 - **Visual Feedback** shows correct and incorrect entries
 - **Keyboard Navigation** use arrow keys to move between inputs
 - **Reveal Answer** option if you get stuck
 - **Responsive Design** works on desktop and mobile
+- **Dark/Light/System Theme** toggle
 
 ## 🎯 Example
 
@@ -49,14 +52,6 @@ From SAVE to PLAN:
 
 ### Local Development
 
-Simply open the `public/index.html` file in your web browser:
-
-```bash
-open public/index.html
-```
-
-Or use a local server:
-
 ```bash
 cd public && python3 -m http.server 8000
 # Then visit http://localhost:8000
@@ -71,215 +66,121 @@ docker-compose up -d
 # Visit http://localhost:3992
 ```
 
+The compose file mounts `./data` as a persistent volume so puzzle data survives container restarts and receives daily scraper updates:
+
+```yaml
+volumes:
+  - ./data:/puzzle-data
+```
+
 Or run with Docker directly:
 
 ```bash
-docker pull ghcr.io/slmingol/cat-climber:main
-docker run -d -p 3992:80 ghcr.io/slmingol/cat-climber:main
-```
-
-Build locally:
-
-```bash
-docker build -t cat-climber .
-docker run -d -p 3992:80 cat-climber
-```
-
-## � CI/CD and Versioning
-
-### Semantic Versioning
-
-This project follows [Semantic Versioning](https://semver.org/):
-- **MAJOR** version for incompatible API changes
-- **MINOR** version for new functionality in a backwards compatible manner  
-- **PATCH** version for backwards compatible bug fixes
-
-Current version is tracked in the `VERSION` file.
-
-### Automated Builds
-
-GitHub Actions automatically builds and publishes Docker images when changes are pushed to `main`:
-
-1. **On Push to Main**: Builds image and tags as `latest` and version from `VERSION` file
-2. **On Version Tag**: Creates release-specific image tags (e.g., `v1.1.0`, `v1.1`, `v1`)
-
-Docker images are published to GitHub Container Registry:
-```bash
 docker pull ghcr.io/slmingol/cat-climber:latest
-docker pull ghcr.io/slmingol/cat-climber:v1.1.0
+docker run -d -p 3992:80 \
+  -v $(pwd)/data:/puzzle-data \
+  ghcr.io/slmingol/cat-climber:latest
 ```
 
-### Version Display
+> **Note:** After pulling a new image that includes updated puzzle data, copy the bundled seed to the host volume so the changes take effect:
+> ```bash
+> docker exec <container> cat /app/seed/collected-puzzles.json > ./data/collected-puzzles.json
+> ```
 
-The application version is displayed in the lower right corner of the web UI (translucent, becomes more visible on hover).
-
-### Releasing a New Version
-
-1. Update `VERSION` file with new version number
-2. Commit changes: `git commit -am "Bump version to X.Y.Z"`
-3. Tag the release: `git tag v X.Y.Z`
-4. Push with tags: `git push && git push --tags`
-5. GitHub Actions will automatically build and publish
-
-## �📁 Project Structure
+## 📁 Project Structure
 
 ```text
 cat-climber/
 ├── .github/
 │   └── workflows/
-│       └── docker-build.yml     # Docker build & publish CI/CD
+│       └── docker-build.yml         # Docker build & publish CI/CD
 ├── data/
-│   ├── collected-puzzles.json   # Scraped puzzle database
-│   └── custom-puzzles.json      # Custom puzzles
+│   ├── collected-puzzles.json        # Scraped + merged puzzle database (964 puzzles)
+│   └── custom-puzzles.json           # Hand-authored puzzles (120)
 ├── public/
-│   ├── archive.html             # Archive page
-│   ├── archive-script.js        # Archive logic
-│   ├── archive-styles.css       # Archive styling
-│   ├── cat-climber-logo.png     # Logo image
-│   ├── index.html               # Main HTML structure
-│   ├── script.js                # Game logic
-│   └── styles.css               # Styling and animations
+│   ├── archive.html                  # Archive browse page
+│   ├── archive-script.js             # Archive logic (filtering, sorting, theme display)
+│   ├── archive-styles.css            # Archive styling
+│   ├── collected-puzzles.json        # Copy of data/ version served statically
+│   ├── cat-climber-logo.png          # Logo image
+│   ├── index.html                    # Main game page
+│   ├── script.js                     # Game logic
+│   └── styles.css                    # Styling and animations
 ├── scripts/
-│   ├── daily-scraper.js         # Automated puzzle collection
-│   ├── merge-puzzles.js         # Puzzle merge utility
-│   └── scraper.js               # Batch puzzle scraper
+│   ├── scheduler.js                  # Runs at 2am/8am/2pm/8pm, backfills 7 days
+│   ├── daily-scraper.js              # Single-day scraper called by scheduler
+│   ├── archive-scraper.js            # Bulk scraper for date ranges
+│   ├── historical-scraper.js         # Historical backfill scraper
+│   ├── connections-scraper.js        # NYT Connections scraper (connectionsplus.io)
+│   ├── scraper.js                    # Core scrape logic
+│   └── merge-puzzles.js              # Merges scraped + custom puzzles
 ├── docs/
-│   ├── diagrams/                # Architecture diagrams
-│   ├── DOCKER.md                # Docker/Podman guide
-│   └── PUZZLE-MANAGEMENT.md     # Puzzle management guide
-├── Caddyfile                    # Caddy web server config
-├── Dockerfile                   # Docker container definition
-├── docker-compose.yml           # Docker Compose configuration
-├── package.json                 # Node.js dependencies
-├── ARCHITECTURE.md              # System architecture documentation
-├── README.md                    # This file
-└── VERSION                      # Semantic version tracking
+│   ├── DOCKER.md                     # Docker/Podman guide
+│   └── PUZZLE-MANAGEMENT.md          # Puzzle management guide
+├── Caddyfile                         # Caddy web server config
+├── Dockerfile                        # Container definition (Caddy + Node.js + Chromium)
+├── docker-compose.yml                # Compose with bind-mounted puzzle data
+├── package.json                      # Node.js dependencies
+├── ARCHITECTURE.md                   # System architecture documentation
+├── README.md                         # This file
+└── VERSION                           # Semantic version tracking
 ```
+
+## 🔄 Puzzle Data
+
+Puzzles are scraped from [raddle.quest](https://raddle.quest) and merged with hand-authored custom puzzles at build time. The scheduler inside the container keeps the dataset current automatically.
+
+### Data flow
+
+```
+raddle.quest ──► scripts/daily-scraper.js ──► /puzzle-data/collected-puzzles.json
+                                                        │
+custom-puzzles.json ──► scripts/merge-puzzles.js ───────┘
+                                                        │
+                              /usr/share/caddy/ ◄───────┘ (symlink)
+```
+
+### Adding custom puzzles
+
+Edit `data/custom-puzzles.json`, then run the merge script and copy both output files:
+
+```bash
+node scripts/merge-puzzles.js
+cp data/collected-puzzles.json public/collected-puzzles.json
+```
+
+### Bulk scraping
+
+```bash
+# Scrape a date range
+node scripts/archive-scraper.js 2026-01-01 2026-06-30
+
+# Backfill historical puzzles
+node scripts/historical-scraper.js
+```
+
+## 🚢 CI/CD and Versioning
+
+GitHub Actions builds and publishes a Docker image on every push to `main`. Images are tagged as `latest` and with the version from the `VERSION` file.
+
+```bash
+docker pull ghcr.io/slmingol/cat-climber:latest
+```
+
+The version is displayed in the lower-right corner of the UI.
 
 ## 📚 Documentation
 
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - System architecture and design decisions
-- **[docs/CICD.md](docs/CICD.md)** - CI/CD pipeline and deployment workflow
 - **[docs/DOCKER.md](docs/DOCKER.md)** - Docker/Podman deployment guide
 - **[docs/PUZZLE-MANAGEMENT.md](docs/PUZZLE-MANAGEMENT.md)** - Puzzle creation and management
 
-## 🎨 Customization
+## 🛠️ Technologies Used
 
-### Adding New Puzzles
-
-Edit the `PUZZLES` array in `public/script.js`:
-
-```javascript
-{
-    start: "WORD",
-    end: "GAME",
-    solution: ["WORD", "WORE", "GORE", "GONE", "GAME"],
-    clues: [
-        "Hint for WORE",
-        "Hint for GORE",
-        "Hint for GONE",
-        // ... etc
-    ],
-    theme: "Your Theme",
-    date: "Today's Date"
-}
-```
-
-## � Puzzle Scraper (Educational Purpose)
-
-A web scraper is included for educational analysis of word ladder puzzles from raddle.quest. This tool is for **research and learning purposes only**.
-
-### Setup
-
-Install dependencies:
-
-```bash
-npm install puppeteer
-```
-
-### Usage
-
-**Scrape a single puzzle:**
-
-```bash
-node scripts/scraper.js
-```
-
-This scrapes today's puzzle and saves it to `puzzle.json`.
-
-**Batch scrape multiple puzzles:**
-
-```bash
-node scripts/scraper.js batch <number> <start-date>
-```
-
-Examples:
-
-```bash
-# Collect 10 puzzles starting from March 13, 2026
-node scraper.js batch 10 2026-03-13
-
-# Collect 200 puzzles (goes backwards in time)
-node scraper.js batch 200 2026-03-13
-```
-
-Results are saved to `collected-puzzles.json`.
-
-### How It Works
-
-1. **Puppeteer** launches a headless Chrome browser
-2. Navigates to the raddle.quest puzzle page for the specified date
-3. Waits for the Single Page Application (SPA) to fully render
-4. Extracts puzzle data from the DOM:
-   - Start and end words from the "From X to Y" pattern
-   - Theme from the Raddle number line
-   - Date from the page header
-   - Clues from the "Clues, out of order" section
-5. Replaces the start word in clues with placeholders (`____`)
-6. Saves structured JSON data with metadata
-
-### Extracted Data Format
-
-```json
-{
-  "start": "WORD",
-  "end": "GAME",
-  "clues": ["Clue with ____ placeholder", "..."],
-  "theme": "Puzzle Theme",
-  "date": "Day, Month DD, YYYY",
-  "url": "https://raddle.quest/YYYY/MM/DD"
-}
-```
-
-### Technical Details
-
-- Uses Puppeteer for JavaScript rendering (SPA support)
-- 2-second delay between requests (respectful scraping)
-- Handles dynamic content with `networkidle0` wait strategy
-- Parses text content using regex patterns
-- Includes error handling for failed scrapes
-
-### Limitations
-
-- Does not extract solution paths (not revealed on the page)
-- Some puzzles may fail to scrape due to page structure changes
-- Requires active internet connection
-
-**Note:** The scraped data is copyrighted by The Mystery League. This tool is provided for educational analysis only.
-
-## �🛠️ Technologies Used
-
-- **HTML5** - Structure
-- **CSS3** - Styling with gradients and animations
-- **JavaScript** - Game logic and interactivity
-- **No frameworks** - Pure vanilla JavaScript
-
-## 🎯 Game Rules
-
-1. Each word must be the same length as the start word
-2. Each word must differ from the previous word by exactly ONE letter
-3. All intermediate words must be valid English words
-4. The first and last words are provided and cannot be changed
+- **HTML5 / CSS3 / Vanilla JavaScript** - No frameworks
+- **Caddy** - Static file server
+- **Node.js + Puppeteer** - Headless scraping with Chromium
+- **Docker / Podman** - Container runtime
 
 ## 📝 Credits
 
