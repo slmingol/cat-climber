@@ -130,7 +130,8 @@ const THEME_MAP = {
     'nhl_playoffs': 'Stanley Cup Playoffs',
     'eurovision': 'Eurovision 2026',
     'hidden_body': 'Hidden Body Parts',
-    'grateful_dead': 'Grateful Dead'
+    'grateful_dead': 'Grateful Dead',
+    'mystery_9': 'Mystery Theme #9'
 };
 
 function getThemeDisplayName(themeSlug) {
@@ -236,6 +237,7 @@ function renderPuzzles() {
     const categoryOrder = [
         '2025 Best Picture nominees',
         'Raddle\'s 1st Anniversary',
+        'Mystery Theme #9',
         'Mystery Theme #6',
         'Winter Olympics',
         'Groundhog Day',
