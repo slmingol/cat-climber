@@ -128,7 +128,9 @@ const THEME_MAP = {
     'mythology': 'Greek & Roman Gods',
     'cockney': 'Cockney Rhyming Slang',
     'nhl_playoffs': 'Stanley Cup Playoffs',
-    'eurovision': 'Eurovision 2026'
+    'eurovision': 'Eurovision 2026',
+    'hidden_body': 'Hidden Body Parts',
+    'grateful_dead': 'Grateful Dead'
 };
 
 function getThemeDisplayName(themeSlug) {
@@ -290,6 +292,8 @@ function renderPuzzles() {
         'Best Picture nominees',
         'Stanley Cup Playoffs',
         'Eurovision 2026',
+        'Grateful Dead',
+        'Hidden Body Parts',
         'Big Ears 2026',
         'Greek & Roman Gods',
         'Cockney Rhyming Slang',
