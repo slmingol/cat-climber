@@ -194,6 +194,7 @@ function renderPuzzles() {
     const grid = document.getElementById('archive-grid');
     const loading = document.getElementById('loading');
     const noResults = document.getElementById('no-results');
+    const sortOrder = document.getElementById('sort-order').value;
     
     loading.style.display = 'none';
     
