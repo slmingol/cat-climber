@@ -127,7 +127,8 @@ const THEME_MAP = {
     'big_ears_26': 'Big Ears 2026',
     'mythology': 'Greek & Roman Gods',
     'cockney': 'Cockney Rhyming Slang',
-    'nhl_playoffs': 'Stanley Cup Playoffs'
+    'nhl_playoffs': 'Stanley Cup Playoffs',
+    'eurovision': 'Eurovision 2026'
 };
 
 function getThemeDisplayName(themeSlug) {
@@ -288,6 +289,7 @@ function renderPuzzles() {
         'My First Raddles',
         'Best Picture nominees',
         'Stanley Cup Playoffs',
+        'Eurovision 2026',
         'Big Ears 2026',
         'Greek & Roman Gods',
         'Cockney Rhyming Slang',
