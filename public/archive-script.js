@@ -119,7 +119,15 @@ const THEME_MAP = {
     'big_ears': 'Big Ears 2025',
     'enigmarch': 'Enigmarch 2025',
     'first': 'My First Raddles',
-    'oscars': 'Best Picture nominees'
+    'oscars': 'Best Picture nominees',
+    'alphabet': 'Alphabet A→Z',
+    'siblings': 'Fictional Siblings',
+    'womens_history': "Women's History Month",
+    'hidden_word': 'Hidden Words',
+    'big_ears_26': 'Big Ears 2026',
+    'mythology': 'Greek & Roman Gods',
+    'cockney': 'Cockney Rhyming Slang',
+    'nhl_playoffs': 'Stanley Cup Playoffs'
 };
 
 function getThemeDisplayName(themeSlug) {
@@ -279,6 +287,14 @@ function renderPuzzles() {
         'Enigmarch 2025',
         'My First Raddles',
         'Best Picture nominees',
+        'Stanley Cup Playoffs',
+        'Big Ears 2026',
+        'Greek & Roman Gods',
+        'Cockney Rhyming Slang',
+        'Hidden Words',
+        "Women's History Month",
+        'Fictional Siblings',
+        'Alphabet A→Z',
         'Uncategorized'
     ];
     
