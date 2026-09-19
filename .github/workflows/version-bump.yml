@@ -96,10 +96,14 @@ jobs:
           if grep -q "Version-v" README.md; then
             sed -i "s/Version-v[0-9]\+\.[0-9]\+\.[0-9]\+/Version-v${{ steps.bump.outputs.new_version }}/" README.md
           fi
-      
+
+      - name: Update package.json
+        run: |
+          sed -i "s/\"version\": \"[0-9]\+\.[0-9]\+\.[0-9]\+\"/\"version\": \"${{ steps.bump.outputs.new_version }}\"/" package.json
+
       - name: Commit and push changes
         run: |
-          git add VERSION public/index.html README.md
+          git add VERSION public/index.html README.md package.json
           git commit -m "chore: bump version to v${{ steps.bump.outputs.new_version }} [skip version]" || exit 0
           git push
       
