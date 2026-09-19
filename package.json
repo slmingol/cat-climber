@@ -9,6 +9,6 @@
     "scheduler": "node scripts/scheduler.js"
   },
   "dependencies": {
-    "puppeteer": "^24.39.1"
+    "puppeteer": "^25.0.0"
   }
 }
