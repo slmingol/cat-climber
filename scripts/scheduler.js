@@ -358,13 +358,39 @@ process.on('SIGINT', shutdown);
 process.on('SIGTERM', shutdown);
 
 // Main
-console.log('='.repeat(60));
-console.log('Cat Climber Daily Puzzle Scheduler');
-console.log('='.repeat(60));
-console.log(`Check times: ${CHECK_TIMES.map(h => `${h}:00`).join(', ')}`);
-console.log(`Check interval: ${CHECK_INTERVAL / 1000 / 60} minutes`);
-console.log(`Backfill window: Last ${BACKFILL_DAYS} days`);
-console.log('='.repeat(60));
+function getVersion() {
+    if (process.env.APP_VERSION && process.env.APP_VERSION !== 'dev') {
+        return process.env.APP_VERSION;
+    }
+    try {
+        return fs.readFileSync(path.join(__dirname, '../VERSION'), 'utf8').trim();
+    } catch (_) {
+        return 'dev';
+    }
+}
+
+const VERSION = getVersion();
+const NODE_VERSION = process.version;
+const W = 60;
+const bar = '='.repeat(W);
+const mid = (str) => {
+    const pad = Math.max(0, W - 2 - str.length);
+    const left = Math.floor(pad / 2);
+    const right = pad - left;
+    return `|${' '.repeat(left)}${str}${' '.repeat(right)}|`;
+};
+console.log(bar);
+console.log(mid(''));
+console.log(mid('Cat Climber  ~^..^~'));
+console.log(mid('Daily Puzzle Scheduler'));
+console.log(mid(''));
+console.log(mid(`v${VERSION}  |  Node ${NODE_VERSION}`));
+console.log(mid(''));
+console.log(bar);
+console.log(`  Check times:     ${CHECK_TIMES.map(h => `${h}:00`).join(', ')}`);
+console.log(`  Check interval:  ${CHECK_INTERVAL / 1000 / 60} min`);
+console.log(`  Backfill window: last ${BACKFILL_DAYS} days`);
+console.log(bar);
 
 loadState();
 logStatus();
