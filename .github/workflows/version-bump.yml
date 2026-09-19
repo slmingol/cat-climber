@@ -100,13 +100,15 @@ jobs:
             sed -i "s/Version-v[0-9]\+\.[0-9]\+\.[0-9]\+/Version-v${{ steps.bump.outputs.new_version }}/" README.md
           fi
 
-      - name: Update package.json
+      - name: Update package.json and package-lock.json
         run: |
-          sed -i "s/\"version\": \"[0-9]\+\.[0-9]\+\.[0-9]\+\"/\"version\": \"${{ steps.bump.outputs.new_version }}\"/" package.json
+          V="${{ steps.bump.outputs.new_version }}"
+          sed -i "s/\"version\": \"[0-9]\+\.[0-9]\+\.[0-9]\+\"/\"version\": \"${V}\"/" package.json
+          sed -i "0,/\"version\": \"[0-9]\+\.[0-9]\+\.[0-9]\+\"/{s/\"version\": \"[0-9]\+\.[0-9]\+\.[0-9]\+\"/\"version\": \"${V}\"/}" package-lock.json
 
       - name: Commit and push changes
         run: |
-          git add VERSION public/index.html README.md package.json
+          git add VERSION public/index.html README.md package.json package-lock.json
           git commit -m "chore: bump version to v${{ steps.bump.outputs.new_version }} [skip version]" || exit 0
           git push
       

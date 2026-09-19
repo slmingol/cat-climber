@@ -58,7 +58,7 @@ RUN sed "s/__VERSION__/${APP_VERSION}/g" /usr/share/caddy/index.html.tmp > /usr/
 RUN cat > /start.sh << 'STARTSCRIPT'
 #!/bin/sh
 BAR="============================================================"
-mid() { str="$1"; len=${#str}; pad=$((58 - len)); left=$((pad / 2)); right=$((pad - left)); printf "|%${left}s%s%${right}s|\n" "" "$str" ""; }
+mid() { str="$1"; len=${#str}; pad=$((58 - len)); [ "$pad" -lt 0 ] && pad=0; left=$((pad / 2)); right=$((pad - left)); printf "|%${left}s%s%${right}s|\n" "" "$str" ""; }
 echo "$BAR"
 mid ""
 mid "Cat Climber  ~^..^~"
