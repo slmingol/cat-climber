@@ -55,19 +55,34 @@ RUN sed "s/__VERSION__/${APP_VERSION}/g" /usr/share/caddy/index.html.tmp > /usr/
     rm -rf /var/cache/apk/* /tmp/*
 
 # Create startup script
-RUN echo '#!/bin/sh' > /start.sh && \
-    echo '# Seed puzzle data into volume if not already present' >> /start.sh && \
-    echo 'if [ ! -s /puzzle-data/collected-puzzles.json ]; then' >> /start.sh && \
-    echo '  echo "Seeding puzzle data from bundle..."' >> /start.sh && \
-    echo '  cp /app/seed/collected-puzzles.json /puzzle-data/collected-puzzles.json' >> /start.sh && \
-    echo 'fi' >> /start.sh && \
-    echo '# Symlink volume-backed puzzle data into Caddy serve path' >> /start.sh && \
-    echo 'ln -sf /puzzle-data/collected-puzzles.json /usr/share/caddy/collected-puzzles.json' >> /start.sh && \
-    echo 'echo "Starting Cat Climber puzzle scheduler..."' >> /start.sh && \
-    echo 'cd /app && node scheduler.js > /var/log/scheduler.log 2>&1 &' >> /start.sh && \
-    echo 'echo "Starting Caddy web server..."' >> /start.sh && \
-    echo 'exec caddy run --config /etc/caddy/Caddyfile --adapter caddyfile' >> /start.sh && \
-    chmod +x /start.sh
+RUN cat > /start.sh << 'STARTSCRIPT'
+#!/bin/sh
+BAR="============================================================"
+mid() { str="$1"; len=${#str}; pad=$((58 - len)); left=$((pad / 2)); right=$((pad - left)); printf "|%${left}s%s%${right}s|\n" "" "$str" ""; }
+echo "$BAR"
+mid ""
+mid "Cat Climber  ~^..^~"
+mid "v${APP_VERSION}"
+mid ""
+echo "$BAR"
+
+# Seed puzzle data into volume if not already present
+if [ ! -s /puzzle-data/collected-puzzles.json ]; then
+  echo "  Seeding puzzle data from bundle..."
+  cp /app/seed/collected-puzzles.json /puzzle-data/collected-puzzles.json
+fi
+
+# Symlink volume-backed puzzle data into Caddy serve path
+ln -sf /puzzle-data/collected-puzzles.json /usr/share/caddy/collected-puzzles.json
+
+echo "  Starting scheduler (logs -> /var/log/scheduler.log)..."
+cd /app && node scheduler.js > /var/log/scheduler.log 2>&1 &
+
+echo "  Starting Caddy web server..."
+echo "$BAR"
+exec caddy run --config /etc/caddy/Caddyfile --adapter caddyfile
+STARTSCRIPT
+RUN chmod +x /start.sh
 
 # Expose port 80
 EXPOSE 80
