@@ -1,35 +1,34 @@
 {
-    log {
-        output stdout
-        format console
-        level WARN
-    }
+	auto_https off
+	log {
+		output stdout
+		format console
+		level WARN
+	}
 }
 
 :80 {
-    root * /usr/share/caddy
-    file_server
-    
-    encode gzip
-    
-    header {
-        X-Content-Type-Options "nosniff"
-        X-Frame-Options "DENY"
-        Referrer-Policy "strict-origin-when-cross-origin"
-    }
-    
-    # No caching for HTML, JS, CSS, and puzzle data
-    header /*.html Cache-Control "no-cache, no-store, must-revalidate"
-    header /*.js Cache-Control "no-cache, no-store, must-revalidate"
-    header /*.css Cache-Control "no-cache, no-store, must-revalidate"
-    header /*.json Cache-Control "no-cache, no-store, must-revalidate"
+	root * /usr/share/caddy
+	file_server
 
-    # Cache images
-    header /*.png Cache-Control "public, max-age=31536000"
-    
-    log {
-        output stdout
-        format console
-        level WARN
-    }
+	encode gzip
+
+	header {
+		X-Content-Type-Options "nosniff"
+		X-Frame-Options "DENY"
+		Referrer-Policy "strict-origin-when-cross-origin"
+	}
+
+	header /*.html Cache-Control "no-cache, no-store, must-revalidate"
+	header /*.js Cache-Control "no-cache, no-store, must-revalidate"
+	header /*.css Cache-Control "no-cache, no-store, must-revalidate"
+	header /*.json Cache-Control "no-cache, no-store, must-revalidate"
+
+	header /*.png Cache-Control "public, max-age=31536000"
+
+	log {
+		output stdout
+		format console
+		level WARN
+	}
 }
